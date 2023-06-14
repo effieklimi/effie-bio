@@ -1,36 +1,40 @@
 'use client';
 
 import clsx from 'clsx';
+import logo from '../app/ek.jpg';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import { LayoutGroup, motion } from 'framer-motion';
+import { name } from 'lib/info';
+
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'Home',
   },
-  '/about': {
-    name: 'about',
+  '/projects': {
+    name: 'Projects',
   },
-  '/blog': {
-    name: 'blog',
+  '/consulting': {
+    name: 'Consulting',
   },
-  '/guestbook': {
-    name: 'guestbook',
-  },
+  // '/reading': {
+  //   name: "Reading",
+  // },
 };
 
 function Logo() {
   return (
-    <Link aria-label="Lee Robinson" href="/">
-      <motion.svg
-        className="text-black dark:text-white h-[25px] md:h-[37px]"
-        width="25"
-        height="37"
-        viewBox="0 0 232 316"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+    <Link aria-label="Effie" href="/">
+      <Image
+        alt={name}
+        className="grayscale"
+        src={logo}
+        placeholder="blur"
+        width={150}
+        priority
+      />
         <motion.path
           initial={{
             opacity: 0,
@@ -60,7 +64,6 @@ function Logo() {
           d="M232 314.998H129.852L232 232.887V314.998Z"
           fill="currentColor"
         />
-      </motion.svg>
     </Link>
   );
 }
@@ -90,9 +93,9 @@ export default function Navbar() {
                     key={path}
                     href={path}
                     className={clsx(
-                      'transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle',
+                      'transition-all hover:text-neutral-400 dark:hover:text-neutral-900 flex align-middle',
                       {
-                        'text-neutral-500': !isActive,
+                        'text-neutral-400': !isActive,
                         'font-bold': isActive,
                       }
                     )}
@@ -101,7 +104,7 @@ export default function Navbar() {
                       {name}
                       {path === pathname ? (
                         <motion.div
-                          className="absolute inset-0 bg-neutral-100 dark:bg-neutral-800 rounded-md z-[-1]"
+                          className="absolute inset-0 bg-neutral-100 dark:bg-neutral-200 rounded-2xl z-[-1]"
                           layoutId="sidebar"
                           transition={{
                             type: 'spring',

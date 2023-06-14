@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import Sidebar from '../components/sidebar';
-import { Analytics } from '@vercel/analytics/react';
+import FooterCentered from 'components/footer';
 
 const kaisei = localFont({
   src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
@@ -14,22 +14,15 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Effie Klimi',
+    template: '%s | Effie Klimi',
   },
-  description: 'Developer, writer, and creator.',
+  description: '✨',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
-    images: [
-      {
-        url: 'https://leerob.io/og.jpg',
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    title: 'Effie Klimi',
+    description: '✨',
+    url: 'https://effie.bio',
+    siteName: 'Effie Klimi',
     locale: 'en-US',
     type: 'website',
   },
@@ -45,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Effie Klimi',
     card: 'summary_large_image',
   },
   icons: {
@@ -66,16 +59,30 @@ export default function RootLayout({
     <html
       lang="en"
       className={clsx(
-        'text-black bg-white dark:text-white dark:bg-[#111010]',
+        'text-black bg-white',
         kaisei.variable
       )}
     >
-      <body className="antialiased max-w-4xl mb-40 flex flex-col md:flex-row mx-4 mt-8 md:mt-20 lg:mt-32 lg:mx-auto">
-        <Sidebar />
-        <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0">
-          {children}
-          <Analytics />
-        </main>
+      <body className="antialiased flex flex-1 flex-col min-h-screen max-w-4xl mb-40 mx-4 lg:mx-auto">
+       
+        <div className="md:mt-20 text-white">
+              .
+        </div>
+
+        <div className="flex flex-row h-5/6">
+            <div>
+              <Sidebar />
+            </div>
+            
+            <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0">
+              {children}
+            </main>
+          </div>
+
+          <div className="text-center	">
+            <p> 📍: 🇬🇧🇪🇸🇳🇱🇬🇷 </p>
+          </div>
+
       </body>
     </html>
   );

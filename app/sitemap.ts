@@ -6,9 +6,9 @@ export default async function sitemap() {
     lastModified: post.publishedAt,
   }));
 
-  const routes = ['', '/about', '/blog', '/guestbook', '/uses'].map(
+  const routes = ['', '/projects', '/consulting', '/uses', '/reading'].map(
     (route) => ({
-      url: `https://leerob.io${route}`,
+      url: `https://effie.bio${route}`,
       lastModified: new Date().toISOString().split('T')[0],
     })
   );
