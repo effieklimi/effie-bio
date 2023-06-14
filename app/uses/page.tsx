@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import FooterCentered from 'components/footer';
 
 export const metadata: Metadata = {
   title: 'Uses',

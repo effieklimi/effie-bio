@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import Sidebar from '../components/sidebar';
-import FooterCentered from 'components/footer';
 
 const kaisei = localFont({
   src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
