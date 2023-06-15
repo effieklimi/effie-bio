@@ -16,7 +16,7 @@ export default async function HomePage() {
   return (
     <div>
       <section>
-        <div className="md:hidden flex items-start my-8 flex-col">
+        <div className="md:hidden flex items-start my-8 flex-col md:flex-row">
           <Image
             alt={name}
             className="rounded-full"
@@ -25,7 +25,7 @@ export default async function HomePage() {
             width={200}
             priority
           />
-          <div className="mt-2 ml-0 space-y-2 flex flex-row dark:text-neutral-500">
+          <div className="mt-2 ml-0 space-y-2 flex flex-col dark:text-neutral-500">
             <a
               rel="noopener noreferrer"
               target="_blank"
@@ -58,7 +58,7 @@ export default async function HomePage() {
             {bio()}
           </p>
         </div>
-        <div className="hidden md:flex items-start md:items-center my-8 flex-col md:flex-row">
+        <div className="hidden md:flex items-start md:items-center my-8 flex-col">
           <Image
             alt={name}
             className="rounded-full"
@@ -67,7 +67,7 @@ export default async function HomePage() {
             width={200}
             priority
           />
-          <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 flex flex-col dark:text-neutral-500">
+          <div className="mt-8 ml-0 md:ml-6 space-y-2 flex flex-col dark:text-neutral-500">
             <a
               rel="noopener noreferrer"
               target="_blank"
