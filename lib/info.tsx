@@ -14,7 +14,8 @@ export const bio = () => {
     <>
       * Slightly longer intro Slightly longer intro Slightly longer intro Slightly longer 
       intro Slightly longer intro Slightly longer intro Slightly longer intro Slightly 
-      longer intro Slightly longer intro*
+      longer intro Slightly longer intro Slightly longer intro Slightly longer intro
+      Slightly longer intro Slightly longer intro Slightly longer intro Slightly longer intro*
     </>
   );
 };
