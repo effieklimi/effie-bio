@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { ArrowIcon } from 'components/icons';
 
 export const metadata: Metadata = {
-  title: 'What I make',
+  title: 'Resume',
   description: '',
 };
 
@@ -10,9 +10,9 @@ export default function AboutPage() {
   return (
     <div className="max-w-5xl">
     <section>
-      <h1 className="mx-3 font-bold text-3xl font-serif">What I'm making</h1>
+      <h1 className="mx-3 font-bold text-3xl font-serif">Resume</h1>
       <p className="mx-3 my-5 text-neutral-800 dark:text-neutral-600">
-         Text here
+         To add 
       </p>
       <div className="mx-3 text-neutral-800 dark:text-neutral-200">
         
