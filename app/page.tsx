@@ -25,7 +25,7 @@ export default async function HomePage() {
 
       </div>
 
-      <div className="flex flex-col md:flex-row ms-8 md:items-center my-4 ">
+      <div className="flex flex-col md:flex-row ms-5 md:items-center ">
         <Image
           alt={name}
           className="h-80 w-80 md:items-center rounded-full mr-7"
@@ -36,11 +36,11 @@ export default async function HomePage() {
         />
 
 
-        <div className="flex flex-col md:w-2/3">
-          <p className="my-5 text-neutral-800 dark:text-neutral-600 text-justify">
+        <div className="flex flex-col md:w-2/3 ml-5">
+          <p className="text-neutral-800 dark:text-neutral-600 text-left">
             {about()}
           </p>
-          <p className="my-5 text-neutral-800 dark:text-neutral-600 text-justify">
+          <p className="my-5 text-neutral-800 dark:text-neutral-600 text-left">
             {bio()}
           </p>
         </div>
