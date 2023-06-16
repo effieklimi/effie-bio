@@ -25,42 +25,16 @@ export default async function HomePage() {
 
       </div>
 
-      <div className="flex flex-col md:flex-row ms-8 md:items-center my-4">
+      <div className="flex flex-col md:flex-row ms-8 md:items-center my-4 ">
         <Image
           alt={name}
-          className="h-80 w-80 md:items-center rounded-full"
+          className="h-80 w-80 md:items-center rounded-full mr-7"
           src={avatar}
           placeholder="blur"
           width={200}
           priority
         />
 
-        <div className="mt-8 md:mt-0 ml-0 md:ml-6 mx-8 space-y-2 dark:text-neutral-500">
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://twitter.com/roboticparts"
-            className="flex items-center gap-2 dark:hover:text-neutral-900"
-          >
-            <TwitterIcon />
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://github.com/effieklimi"
-            className="flex items-center gap-2 dark:hover:text-neutral-900"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://linkedin.com/effieklimi"
-            className="flex items-center gap-2 dark:hover:text-neutral-900"
-          >
-            <LinkedInIcon />
-          </a>
-      </div>
 
         <div className="flex flex-col md:w-2/3">
           <p className="my-5 text-neutral-800 dark:text-neutral-600 text-justify">
@@ -78,19 +52,27 @@ export default async function HomePage() {
         </div>
       </div>
 
-      <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
-        <li>
-          <a
-            className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="mailto:effie@effie.bio"
-          >
-            <ArrowIcon />
-            <p className="h-7 font-bold">Email me</p>
-          </a>
-        </li>
-      </ul>
+
+      <div className="flex flex-row">
+
+        <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
+          <li>
+            <a
+              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="mailto:effie@effie.bio"
+            >
+              <ArrowIcon />
+              <p className="h-7 font-bold">Email me</p>
+            </a>
+          </li>
+        </ul>
+        
+
+      </div>
+
+
     </section>
 
     {/* <div className='wrapper'>
@@ -106,3 +88,45 @@ export default async function HomePage() {
 
 
 
+
+// <ul className="flex flex-col md:flex-row mt-8 ml-4 mr-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
+// <li>
+//   <a
+//     className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
+//     rel="noopener noreferrer"
+//     target="_blank"
+//     href="https://twitter.com/roboticparts"
+//   >
+//     <TwitterIcon />
+//     {/* <p className="h-7 font-bold"></p> */}
+//   </a>
+// </li>
+// </ul>
+
+// <ul className="flex flex-col md:flex-row mt-8 ml-4 mr-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
+// <li>
+//   <a
+//     className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
+//     rel="noopener noreferrer"
+//     target="_blank"
+//     href="https://github.com/effieklimi"
+//   >
+//     <GitHubIcon />
+//     {/* <p className="h-7 font-bold"></p> */}
+//   </a>
+// </li>
+// </ul>
+
+// <ul className="flex flex-col md:flex-row mt-8 ml-4 mr-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
+// <li>
+//   <a
+//     className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
+//     rel="noopener noreferrer"
+//     target="_blank"
+//     href="https://linkedin.com/effieklimi"
+//   >
+//     <LinkedInIcon />
+//     {/* <p className="h-7 font-bold"></p> */}
+//   </a>
+// </li>
+// </ul>
