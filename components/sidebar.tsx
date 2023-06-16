@@ -93,7 +93,7 @@ export default function Navbar() {
         className="flex flex-row md:flex-row items-start md:items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative space-x-4 md:space-x-0"
         id="nav"
       >
-        <div className="flex flex-row md:flex-row md:justify-end justify-center text-xl">
+        <div className="flex flex-row md:flex-row md:justify-end justify-center md:text-xl text-m">
           {Object.entries(navItems).map(([path, { name }]) => {
             const isActive = path === pathname;
             return (
@@ -112,7 +112,7 @@ export default function Navbar() {
                   {name}
                   {path === pathname ? (
                     <motion.div
-                      className="absolute inset-0 bg-neutral-100 dark:bg-[#DEB0D5] rounded-full z-[-1]"
+                      className="absolute inset-0 bg-neutral-100 md:dark:bg-[#DEB0D5] dark:bg-[#DEB0D5] rounded-full z-[-1]"
                       layoutId="sidebar"
                       transition={{
                         type: 'spring',

@@ -5,7 +5,7 @@ import {
   TwitterIcon,
   LinkedInIcon,
 } from 'components/icons';
-import { name, about, bio, avatar } from 'lib/info';
+import { name, about, bio, avatar, coding } from 'lib/info';
 import './global.css';
 import clsx from 'clsx';
 import localFont from 'next/font/local';
@@ -26,10 +26,9 @@ export default async function HomePage() {
   return (
     <div>
     <section >
-    {/* <hr/> */}
-       <h1 className="text-lg"  >ABOUT</h1>
+       <h1 className="text-lg md:visible invisible">ABOUT</h1>
 
-      <h1 className="text-3xl font-serif font-bold">Effie Klimi</h1>
+      <h1 className="text-3xl font-serif font-bold md:text-left text-center">Effie Klimi</h1>
 
       <div className="flex items-start md:items-center place-self-center my-8 flex-col md:flex-row space-x-7">
 
@@ -52,6 +51,9 @@ export default async function HomePage() {
           </p>
           <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-left">
             {bio()}
+          </p>
+          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-left">
+            {coding()}
           </p>
         </div>
 

@@ -70,7 +70,7 @@ export default function RootLayout({
             </div>
 
             
-            <main className="min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0 text-xl text-black">
+            <main className="min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0 text-lg text-black">
               {children}
             </main>
         </div>
