@@ -18,8 +18,47 @@ html, body {
   height: 100%;
 }
 
+/* 
+.container {
+  line-height: 1.4;
+  text-align: center;
+  padding: 44px;
+  color: #333;
+} */
 
+/* h1 {
+  font-size: 50px;
+}
 
+p {
+  font-size: 18px;
+}
+p small {
+  font-size: 80%;
+  color: #666;
+} */
+
+.highlight-container, .highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+.highlight-container:before {
+  content: " ";
+  display: block;
+  height: 5%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: #DEB0D5;
+  top: 22px;
+  left: 0px;
+  border-radius: 0% 0% 0% 0%;
+  padding: 5px 10px 3px 0px;
+}
 
 .prose .anchor {
   @apply absolute invisible no-underline;

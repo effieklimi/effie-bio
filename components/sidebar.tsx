@@ -101,7 +101,7 @@ export default function Navbar() {
                 key={path}
                 href={path}
                 className={clsx(
-                  'transition-all mx-auto hover:text-black flex align-middle',
+                  'transition-all mx-auto hover:text-black flex align-middle md:flex align-middle',
                   {
                     'text-neutral-700': !isActive,
                     'font-bold': isActive,
@@ -112,7 +112,7 @@ export default function Navbar() {
                   {name}
                   {path === pathname ? (
                     <motion.div
-                      className="absolute inset-0 md:dark:bg-[#DEB0D5] dark:bg-[#DEB0D5] rounded-full z-[-1]"
+                      className="absolute inset-0 md:dark:bg-[#DEB0D5] bg-[#DEB0D5] rounded-full z-[-1]"
                       layoutId="sidebar"
                       transition={{
                         type: 'spring',
