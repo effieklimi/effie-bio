@@ -67,7 +67,7 @@ export default async function HomePage() {
           </a>
       </div>
 
-        <div className="flex md:flex-col flex-row w-2/3">
+        <div className="flex flex-col w-2/3">
           <p className="my-5 text-neutral-800 dark:text-neutral-600 text-justify">
             {about()}
           </p>
