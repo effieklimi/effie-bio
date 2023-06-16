@@ -74,10 +74,10 @@ export default function RootLayout({
               {children}
             </main>
         </div>
-
+{/* 
         <div className="text-center	">
           <p> 📍: 🇬🇧🇪🇸🇳🇱🇬🇷 </p>
-        </div>
+        </div> */}
 
       </body>
     </html>

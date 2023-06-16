@@ -23,11 +23,6 @@ export default async function HomePage() {
 
       <div className="flex items-start md:items-center place-self-center my-8 flex-col md:flex-row space-x-7">
 
-        
-
-
-
-
       </div>
 
       <div className="flex flex-col md:flex-row ms-8 md:items-center my-4">
@@ -40,7 +35,7 @@ export default async function HomePage() {
           priority
         />
 
-        <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 dark:text-neutral-500">
+        <div className="mt-8 md:mt-0 ml-0 md:ml-6 mx-8 space-y-2 dark:text-neutral-500">
           <a
             rel="noopener noreferrer"
             target="_blank"
