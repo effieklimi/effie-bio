@@ -94,7 +94,7 @@ export default function RootLayout({
               <p className="h-7 font-bold">Email me</p>
             </a>
           </li>
-          <p className="h-7 font-bold"> 📍: 🇬🇧🇬🇷🇪🇸🇳🇱</p>
+          {/* <p className="h-7 font-bold"> 📍: 🇬🇧🇬🇷🇪🇸🇳🇱</p> */}
         </ul>
         </div>
 
