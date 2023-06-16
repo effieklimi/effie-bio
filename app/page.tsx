@@ -38,7 +38,7 @@ export default async function HomePage() {
         <div className="md:w-1/3">
           <Image
             alt={name}
-            className="rounded-full mr-7 mx-auto"
+            className="rounded-full mr-7 mx-auto md:m-0 m-8"
             src={avatar}
             placeholder="blur"
             // width={330}
