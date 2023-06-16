@@ -58,22 +58,19 @@ export default function RootLayout({
     <html
       lang="en"
       className={clsx(
-        'text-black bg-white',
-        kaisei.variable
+        'text-black bg-white font-sans',
+        // kaisei.variable
       )}
     >
-      <body className="antialiased flex flex-1 flex-col min-h-screen max-w-4xl mb-40 mx-4 lg:mx-auto">
-       
-        <div className="md:mt-20 text-white">
-            .
-        </div>
+      <body className="antialiased flex flex-1 flex-col min-h-screen max-w-5xl mb-40 mx-4 lg:mx-auto">
 
-        <div className="flex flex-col h-5/6">
-            <div>
+        <div className="flex flex-col h-min">
+            <div className="my-8">
               <Sidebar />
             </div>
+
             
-            <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0 text-m">
+            <main className="min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0 text-xl text-black">
               {children}
             </main>
         </div>

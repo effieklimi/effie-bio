@@ -1,7 +1,7 @@
 'use client';
 
 import clsx from 'clsx';
-import logo from '../app/ek.jpg';
+import { logo } from 'lib/info';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -19,9 +19,12 @@ const navItems = {
   '/consulting': {
     name: 'Consulting',
   },
-  // '/reading': {
-  //   name: "Reading",
-  // },
+  '/reading': {
+    name: "Reading",
+  },
+  '/CV': {
+    name: "CV",
+  },
 };
 
 function Logo() {
@@ -75,15 +78,22 @@ export default function Navbar() {
   }
 
   return (
-    <header className="flex flex-row md:flex-col items-start md:items-center md:w-[200px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-serif space-x-4 md:space-x-0">
-      <div className="h-20 w-20 md:h-auto md:w-auto">
-        <Logo  />
+    <header className="flex flex-row md:flex-row justify-between items-center md:w-full md:flex-shrink-0 px-0 font-serif space-x-4 md:space-x-0">
+      <div className=" h-auto md:h-auto md:w-auto flex flex-row space-x-4">
+        <Image className="h-16 w-16" src={logo} alt="logo"/>
+        {/* <div className="md:font-bold font-serif md:text-4xl md:py-2">
+            Effie Klimi
+        </div> */}
+
       </div>
+
+
+
       <nav
-        className="flex flex-row md:flex-col items-start md:items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative space-x-4 md:space-x-0"
+        className="flex flex-row md:flex-row items-start md:items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative space-x-4 md:space-x-0"
         id="nav"
       >
-        <div className="flex flex-row md:flex-col space-x-4 md:space-x-0 pr-10 mb-2 mt-2 md:mt-0">
+        <div className="flex flex-row md:flex-row justify-end text-xl">
           {Object.entries(navItems).map(([path, { name }]) => {
             const isActive = path === pathname;
             return (
@@ -91,9 +101,9 @@ export default function Navbar() {
                 key={path}
                 href={path}
                 className={clsx(
-                  'transition-all hover:text-neutral-400 dark:hover:text-neutral-900 flex align-middle',
+                  'transition-all hover:text-neutral-400 dark:hover:text-black flex align-middle',
                   {
-                    'text-neutral-400': !isActive,
+                    'text-neutral-700': !isActive,
                     'font-bold': isActive,
                   }
                 )}
@@ -102,7 +112,7 @@ export default function Navbar() {
                   {name}
                   {path === pathname ? (
                     <motion.div
-                      className="absolute inset-0 bg-neutral-100 dark:bg-neutral-200 rounded-2xl z-[-1]"
+                      className="absolute inset-0 bg-neutral-100 dark:bg-neutral-200 rounded-full z-[-1]"
                       layoutId="sidebar"
                       transition={{
                         type: 'spring',

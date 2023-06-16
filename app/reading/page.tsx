@@ -8,14 +8,16 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
+    <div className="max-w-5xl">
+
     <section>
       <h1 className="mx-3 font-bold text-3xl font-serif">Substacks/pubs</h1>
       <p className="mx-3 my-5 max-w-[600px] text-neutral-800 dark:text-neutral-700">
          Books - publication bibliographies - substacks
       </p>
-      <div className="mx-3 prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
+      <div className="mx-3 text-neutral-800 dark:text-neutral-200">
         
-        <hr />
+      <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-900"/>
         
         
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
@@ -33,5 +35,6 @@ export default function AboutPage() {
         </div>
       </div>
     </section>
+    </div>
   );
 }
