@@ -27,34 +27,35 @@ export default async function HomePage() {
     <div>
     <section >
       {/* <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" /> */}
-      <h1 className="text-3xl font-serif font-bold md:text-left text-center mx-3">Effie Klimi</h1>
-      <h1 className="text-lg md:visible invisible mb-5 mx-3">ABOUT</h1>
+      <h1 className="md:text-3xl text-5xl font-serif font-bold md:text-left text-center mx-3">Effie Klimi</h1>
+      <h1 className="text-lg hidden md:block mx-3">ABOUT</h1>
 
-      <div className="flex items-start md:items-center place-self-center my-8 flex-col md:flex-row space-x-7">
+      <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7">
 
       </div>
 
-      <div className="flex flex-col md:flex-row ms-5">
-        <div className="md:w-1/3">
+      <div className="flex flex-col items-center ms-5">
+        <div className="m-10">
           <Image
             alt={name}
-            className="rounded-full mr-7 mx-auto md:m-0 m-8"
+            className="rounded-full md:mr-7 mx-auto md:m-0 m-8"
             src={avatar}
-            placeholder="blur"
-            // width={330}
+            // placeholder="blur"
+            width={200}
+            height={200}
             priority
           />
         </div>
 
 
-        <div className="flex flex-col md:w-2/3 justify-center md:justify-center">
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-justify">
+        <div className="flex flex-col justify-center md:justify-center">
+          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
             {about()}
           </p>
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-justify">
+          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
             {bio()}
           </p>
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-justify">
+          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
             {coding()}
           </p>
         </div>

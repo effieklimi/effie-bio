@@ -68,7 +68,7 @@ export default function RootLayout({
         kaisei.variable
       )}
     >
-      <body className="antialiased flex flex-1 flex-col min-h-screen max-w-5xl mb-40 mx-4 lg:mx-auto">
+      <body className="antialiased flex flex-1 flex-col min-h-screen max-w-3xl mb-40 mx-4 lg:mx-auto">
 
         <div className="flex flex-col h-min">
             <div className="my-8 flex flex-row justify-center md:flex md:flex-row md:justify-center">
