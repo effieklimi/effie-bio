@@ -93,7 +93,7 @@ export default function Navbar() {
         className="flex flex-row md:flex-row items-start md:items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative space-x-4 md:space-x-0"
         id="nav"
       >
-        <div className="flex flex-row md:flex-row md:justify-end justify-center md:text-xl text-m">
+        <div className="flex flex-row md:flex-row mx-auto md:text-xl text-m">
           {Object.entries(navItems).map(([path, { name }]) => {
             const isActive = path === pathname;
             return (
@@ -101,7 +101,7 @@ export default function Navbar() {
                 key={path}
                 href={path}
                 className={clsx(
-                  'transition-all hover:text-neutral-400 dark:hover:text-black flex align-middle',
+                  'transition-all mx-auto hover:text-neutral-400 dark:hover:text-black flex align-middle',
                   {
                     'text-neutral-700': !isActive,
                     'font-bold': isActive,

@@ -14,9 +14,8 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      I've worked all around biology, from basic research in eukaryotic DNA replication to 
-      mathematical modeling in evolutionary genetics. Currently, I'm wrapping up my PhD on RNA therapeutics 
-      and viral vector delivery <b>@ Uni of Edinburgh</b>.
+      I've worked all around biology, including: basic research in eukaryotic DNA replication, mathematical 
+      modeling in evolutionary genetics, structural omics and my PhD in RNA biology and viral vectors <b>@ The University of Edinburgh</b>.
     </>
     
   );
@@ -25,8 +24,19 @@ export const bio = () => {
 export const coding = () => {
   return (
     <>
-      I code for science - I build the software I wish I had during my PhD, and streamline omics pipelines +
-      big-data infra for researchers and biotech. If you want to discuss (your) biotech startup, data and software, <b>contact me</b>!
+      I care about the intersection of science and software that works and looks great<b>. 
+      I build the software I wish I had during my PhD</b> and streamline omics pipelines +
+      big-data infra for researchers and biotech. 
+      <br/><br/>
+      
+      If you want to discuss (your) biotech startup, data and software, 
+      <a href="mailto:effie@effie.bio">
+        <b>
+          <u>contact me</u>
+        </b>
+      </a>!
+
+      
     </>
     
   );

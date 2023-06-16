@@ -12,7 +12,7 @@ export default function AboutPage() {
 
     <section>
       <h1 className="mx-3 font-bold text-3xl font-serif">Substacks/pubs</h1>
-      <p className="mx-3 my-5 max-w-[600px] text-neutral-800 dark:text-neutral-700">
+      <p className="mx-3 my-5 text-neutral-800 dark:text-neutral-700">
          Books - publication bibliographies - substacks
       </p>
       <div className="mx-3 text-neutral-800 dark:text-neutral-200">

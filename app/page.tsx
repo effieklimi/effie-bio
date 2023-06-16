@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import {
   ArrowIcon,
-  GitHubIcon,
-  TwitterIcon,
-  LinkedInIcon,
+  // GitHubIcon,
+  // TwitterIcon,
+  // LinkedInIcon,
 } from 'components/icons';
 import { name, about, bio, avatar, coding } from 'lib/info';
 import './global.css';
-import clsx from 'clsx';
+// import clsx from 'clsx';
 import localFont from 'next/font/local';
 
 
@@ -26,18 +26,18 @@ export default async function HomePage() {
   return (
     <div>
     <section >
-       <h1 className="text-lg md:visible invisible">ABOUT</h1>
-
-      <h1 className="text-3xl font-serif font-bold md:text-left text-center">Effie Klimi</h1>
+      {/* <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" /> */}
+      <h1 className="text-3xl font-serif font-bold md:text-left text-center mx-3">Effie Klimi</h1>
+      <h1 className="text-lg md:visible invisible mb-5 mx-3">ABOUT</h1>
 
       <div className="flex items-start md:items-center place-self-center my-8 flex-col md:flex-row space-x-7">
 
       </div>
 
-      <div className="flex flex-col md:flex-row ms-5 md:items-center ">
+      <div className="flex flex-col md:flex-row ms-5">
         <Image
           alt={name}
-          className="h-70 w-70 md:justify-center justify-center rounded-full mr-7"
+          className="h-70 w-70 rounded-full mr-7 mx-auto"
           src={avatar}
           placeholder="blur"
           width={300}
@@ -46,13 +46,13 @@ export default async function HomePage() {
 
 
         <div className="flex flex-col md:w-2/3 justify-center md:justify-center">
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-left">
+          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-justify">
             {about()}
           </p>
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-left">
+          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-justify">
             {bio()}
           </p>
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-left">
+          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-center md:text-justify">
             {coding()}
           </p>
         </div>
