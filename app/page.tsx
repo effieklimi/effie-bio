@@ -30,7 +30,42 @@ export default async function HomePage() {
 
       </div>
 
-      <div className="flex md:flex-row justify-between">
+      <div className="flex flex-col md:flex-row ms-8 md:items-center my-4">
+        <Image
+          alt={name}
+          className="h-80 w-80 md:items-center rounded-full"
+          src={avatar}
+          placeholder="blur"
+          width={200}
+          priority
+        />
+
+        <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 dark:text-neutral-500">
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/roboticparts"
+            className="flex items-center gap-2 dark:hover:text-neutral-900"
+          >
+            <TwitterIcon />
+          </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/effieklimi"
+            className="flex items-center gap-2 dark:hover:text-neutral-900"
+          >
+            <GitHubIcon />
+          </a>
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://linkedin.com/effieklimi"
+            className="flex items-center gap-2 dark:hover:text-neutral-900"
+          >
+            <LinkedInIcon />
+          </a>
+      </div>
 
         <div className="flex md:flex-col w-2/3">
           <p className="my-5 text-neutral-800 dark:text-neutral-600 text-justify">
@@ -42,41 +77,9 @@ export default async function HomePage() {
         </div>
 
         <div className="flex items-start md:items-center my-4 flex-col md:flex-row space-x-7">
-                <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 dark:text-neutral-500">
-                    <a
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      href="https://twitter.com/roboticparts"
-                      className="flex items-center gap-2 dark:hover:text-neutral-900"
-                    >
-                      <TwitterIcon />
-                    </a>
-                    <a
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      href="https://github.com/effieklimi"
-                      className="flex items-center gap-2 dark:hover:text-neutral-900"
-                    >
-                      <GitHubIcon />
-                    </a>
-                    <a
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      href="https://linkedin.com/effieklimi"
-                      className="flex items-center gap-2 dark:hover:text-neutral-900"
-                    >
-                      <LinkedInIcon />
-                    </a>
-                </div>
+
                
-                <Image
-                  alt={name}
-                  className="h-100 w-100 md:items-center rounded-full"
-                  src={avatar}
-                  placeholder="blur"
-                  width={200}
-                  priority
-                />
+
         </div>
       </div>
 
