@@ -78,22 +78,20 @@ export default function Navbar() {
   }
 
   return (
-    <header className="flex flex-row md:flex-row justify-between items-center md:w-full md:flex-shrink-0 px-0 font-serif space-x-4 md:space-x-0">
-      <div className=" h-auto md:h-auto md:w-auto flex flex-row space-x-4">
-        <Image className="h-16 w-16" src={logo} alt="logo"/>
+    <header className="flex flex-row items-center md:flex md:flex-row  md:items-center justify-between  md:w-full md:flex-shrink-0 px-0 font-serif space-x-4 md:space-x-0">
+        <Image className="h-16 w-16 hidden md:block" src={logo} alt="logo"/>
         {/* <div className="md:font-bold font-serif md:text-4xl md:py-2">
             Effie Klimi
         </div> */}
 
-      </div>
 
 
 
       <nav
-        className="flex flex-row md:flex-row items-center md:items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative space-x-4 md:space-x-0"
+        className="flex md:flex flex-row md:flex-row items-center md:items-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative space-x-4 md:space-x-0"
         id="nav"
       >
-        <div className="flex flex-row md:flex-row mx-auto md:text-xl text-m">
+        <div className="flex items-center flex-row mx-auto md:text-xl text-m md:flex md:items-center ">
           {Object.entries(navItems).map(([path, { name }]) => {
             const isActive = path === pathname;
             return (
@@ -101,7 +99,7 @@ export default function Navbar() {
                 key={path}
                 href={path}
                 className={clsx(
-                  'transition-all mx-auto hover:text-black flex align-middle md:flex align-middle',
+                  'transition-all mx-auto hover:text-black flex align-middle',
                   {
                     'text-neutral-700': !isActive,
                     'font-bold': isActive,

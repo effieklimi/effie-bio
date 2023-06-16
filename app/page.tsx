@@ -35,14 +35,16 @@ export default async function HomePage() {
       </div>
 
       <div className="flex flex-col md:flex-row ms-5">
-        <Image
-          alt={name}
-          className="h-70 w-70 rounded-full mr-7 mx-auto"
-          src={avatar}
-          placeholder="blur"
-          width={300}
-          priority
-        />
+        <div className="md:w-1/3">
+          <Image
+            alt={name}
+            className="rounded-full mr-7 mx-auto"
+            src={avatar}
+            placeholder="blur"
+            // width={330}
+            priority
+          />
+        </div>
 
 
         <div className="flex flex-col md:w-2/3 justify-center md:justify-center">
@@ -67,19 +69,7 @@ export default async function HomePage() {
 
       <div className="flex flex-row">
 
-        <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
-          <li>
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="mailto:effie@effie.bio"
-            >
-              <ArrowIcon />
-              <p className="h-7 font-bold">Email me</p>
-            </a>
-          </li>
-        </ul>
+
         
 
       </div>

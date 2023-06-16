@@ -3,6 +3,12 @@ import clsx from 'clsx';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import Sidebar from '../components/sidebar';
+import {
+  ArrowIcon,
+  // GitHubIcon,
+  // TwitterIcon,
+  // LinkedInIcon,
+} from 'components/icons';
 
 const kaisei = localFont({
   src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
@@ -65,7 +71,7 @@ export default function RootLayout({
       <body className="antialiased flex flex-1 flex-col min-h-screen max-w-5xl mb-40 mx-4 lg:mx-auto">
 
         <div className="flex flex-col h-min">
-            <div className="my-8">
+            <div className="my-8 flex flex-row justify-center md:flex md:flex-row md:justify-center">
               <Sidebar />
             </div>
 
@@ -74,10 +80,23 @@ export default function RootLayout({
               {children}
             </main>
         </div>
-{/* 
-        <div className="text-center	">
-          <p> 📍: 🇬🇧🇪🇸🇳🇱🇬🇷 </p>
-        </div> */}
+
+        <div className="flex justify-center">
+        <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
+          <li>
+            <a
+              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="mailto:effie@effie.bio"
+            >
+              <ArrowIcon />
+              <p className="h-7 font-bold">Email me</p>
+            </a>
+          </li>
+          <p className="h-7 font-bold"> 📍: 🇬🇧🇬🇷🇪🇸🇳🇱</p>
+        </ul>
+        </div>
 
       </body>
     </html>
