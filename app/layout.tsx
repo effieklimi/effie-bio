@@ -65,10 +65,10 @@ export default function RootLayout({
       <body className="antialiased flex flex-1 flex-col min-h-screen max-w-4xl mb-40 mx-4 lg:mx-auto">
        
         <div className="md:mt-20 text-white">
-              .
+            .
         </div>
 
-        <div className="flex flex-row h-5/6">
+        <div className="flex flex-col h-5/6">
             <div>
               <Sidebar />
             </div>
@@ -76,11 +76,11 @@ export default function RootLayout({
             <main className="flex-auto min-w-0 mt-6 md:mt-0 flex flex-col px-2 md:px-0 text-m">
               {children}
             </main>
-          </div>
+        </div>
 
-          <div className="text-center	">
-            <p> 📍: 🇬🇧🇪🇸🇳🇱🇬🇷 </p>
-          </div>
+        <div className="text-center	">
+          <p> 📍: 🇬🇧🇪🇸🇳🇱🇬🇷 </p>
+        </div>
 
       </body>
     </html>
