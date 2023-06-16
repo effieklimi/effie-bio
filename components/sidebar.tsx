@@ -22,7 +22,7 @@ const navItems = {
   '/reading': {
     name: "Reading",
   },
-  '/CV': {
+  '/Resume': {
     name: "CV",
   },
 };
