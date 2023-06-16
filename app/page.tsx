@@ -7,7 +7,17 @@ import {
 } from 'components/icons';
 import { name, about, bio, avatar } from 'lib/info';
 import './global.css';
+import clsx from 'clsx';
+import localFont from 'next/font/local';
 
+
+
+const kaisei = localFont({
+  src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
+  weight: '700',
+  variable: '--font-kaisei',
+  display: 'swap',
+});
 
 export const revalidate = 60;
 
@@ -17,9 +27,9 @@ export default async function HomePage() {
     <div>
     <section >
     {/* <hr/> */}
-    
-      <h1 className="text-xl font-serif">ABOUT</h1>
-      <h1 className="text-3xl font-bold font-serif">Effie Klimi</h1>
+       <h1 className="text-lg"  >ABOUT</h1>
+
+      <h1 className="text-3xl font-serif font-bold">Effie Klimi</h1>
 
       <div className="flex items-start md:items-center place-self-center my-8 flex-col md:flex-row space-x-7">
 
@@ -28,10 +38,10 @@ export default async function HomePage() {
       <div className="flex flex-col md:flex-row ms-5 md:items-center ">
         <Image
           alt={name}
-          className="h-80 w-80 md:justify-center justify-center rounded-full mr-7"
+          className="h-70 w-70 md:justify-center justify-center rounded-full mr-7"
           src={avatar}
           placeholder="blur"
-          width={200}
+          width={300}
           priority
         />
 

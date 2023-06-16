@@ -59,7 +59,7 @@ export default function RootLayout({
       lang="en"
       className={clsx(
         'text-black bg-white font-sans',
-        // kaisei.variable
+        kaisei.variable
       )}
     >
       <body className="antialiased flex flex-1 flex-col min-h-screen max-w-5xl mb-40 mx-4 lg:mx-auto">
