@@ -1,4 +1,4 @@
-import me from "../app/avatar-madrid.jpg";
+import me from "../app/avatar.jpg";
 import ek from "../app/ek.jpg";
 
 export const name = "Effie Klimi";
