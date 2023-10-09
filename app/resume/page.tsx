@@ -172,14 +172,14 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <h1 className="text-xl font-bold">Education</h1>
+        {/* <h1 className="text-xl font-bold">Education</h1>
         <li className="mx-3 my-3 text-neutral-800 dark:text-neutral-600">
           PhD Cardiovascular Science, Queen’s Medical Research Institute,
           University of Edinburgh
         </li>
         <li className="mx-3 my-3 text-neutral-800 dark:text-neutral-600">
           BSc Genetics, School of Life Sciences, University of Sussex
-        </li>
+        </li> */}
 
         <div className="mx-3 text-neutral-800 dark:text-neutral-200">
           <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-900" />
