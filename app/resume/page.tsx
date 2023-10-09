@@ -55,11 +55,11 @@ export default function AboutPage() {
           <p className=" font-bold">
             ⬇️ My PhD - QMRI, University of Edinburgh, UK
           </p>
-          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+          <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
             Project 1: Identification of novel therapeutic miRNAs for vein graft
             failure
           </p>
-          <div className="mx-3">
+          <ul className="mx-3">
             <li>
               Assessing the effect of 2000+ miRNAs on proliferation via a
               high-throughput screen
@@ -73,12 +73,12 @@ export default function AboutPage() {
               through RNA-seq.
             </li>
             <li>Testing adenoviral delivery system in the vasculature. </li>
-          </div>
-          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+          </ul>
+          <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
             Project 2: Studying endogenous miRNA loci that become deregulated in
             response to injurious stimuli in vascular smooth muscle cells
           </p>
-          <div className="mx-3">
+          <ul className="mx-3">
             <li>
               Developed transcriptomics & genomics pipelines with R, Python,
               Unix and NextFlow.
@@ -92,21 +92,23 @@ export default function AboutPage() {
               Functional genomics-based evaluation of the loci of interest using
               GWAS & eQTL data.{" "}
             </li>
-          </div>
-          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+          </ul>
+          <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
             Project 3:  Evaluation of all human miRNAs by predicting processing
             efficiency
           </p>
-          <div className="mx-3">
-            Used sequence and structural determinants associated with Drosha
-            recognition and subsequent increased mature miRNA expression to
-            identified the most optimal miRNAs that make the most sense to
-            research and work with for translational projects
-          </div>
-          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+          <ul className="mx-3">
+            <li>
+              Used sequence and structural determinants associated with Drosha
+              recognition and subsequent increased mature miRNA expression to
+              identified the most optimal miRNAs that make the most sense to
+              research and work with for translational projects
+            </li>
+          </ul>
+          <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
             Also involved in:
           </p>
-          <div className="mx-3">
+          <ul className="mx-3">
             <li>
               A project on extracellular vesicles derived from a stem
               cell-derived endothelial cell product who's potent angiogenic
@@ -118,12 +120,12 @@ export default function AboutPage() {
               & bulk).
             </li>
             <li>Teaching new lab members (students and post-doctoral).</li>
-          </div>
+          </ul>
 
           <p className="mt-5 font-bold">
             ⬇️ My BBSRC CASE internship - Batavia Biosciences B.V., Leiden, NL
           </p>
-          <p className="">
+          <p className="mx-6">
             Training on the generation of clinical-grade, Adenovirus 5-based
             vectors
           </p>
@@ -150,21 +152,23 @@ export default function AboutPage() {
             UK
           </p>
           <div className="mx-3">
-            <li>Generating Cdc45 mutants by error-prone PCR.</li>
-            <li>
-              S. pombe culture and Cre-lox-mediated insertion of Cdc45 mutants
-            </li>
-            <li>
-              Tertiary protein structure modelling of temperature-sensitive
-              Cdc45 mutants (PyMOL).
-            </li>
+            <ul>
+              <li>Generating Cdc45 mutants by error-prone PCR.</li>
+              <li>
+                S. pombe culture and Cre-lox-mediated insertion of Cdc45 mutants
+              </li>
+              <li>
+                Tertiary protein structure modelling of temperature-sensitive
+                Cdc45 mutants (PyMOL).
+              </li>
+            </ul>
           </div>
 
           <p className="mt-5 font-bold">
             ⬇️ My Junior RA Project - Evolution, Behaviour and Environment Dept,
             Sussex, UK
           </p>
-          <div className="mx-3">
+          <div className="mx-6">
             Used single nucleotide polymorphism data (from the 1000 genomes
             project) and de novo mutation data (from multiple studies) to
             estimate the variation of the effective population size across the
