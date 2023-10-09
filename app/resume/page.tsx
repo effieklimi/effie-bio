@@ -10,15 +10,177 @@ export default function AboutPage() {
   return (
     <div className="max-w-5xl">
       <section>
-        <h1 className="mx-3 font-bold text-3xl font-serif mb-5">Resume</h1>
-        <h1 className="text-xl">Education</h1>
+        <h1 className="mx-3 font-bold text-3xl font-serif mb-8">Resume</h1>
+
+        <h1 className="mx-3 my-5 font-serif text-2xl font-bold">
+          In a nutshell:
+        </h1>
+        <ul className="mx-3 my-3">
+          <li>
+            I can design, perfom & analyse -omics projects from start (cell
+            culture & sample collection) to finish (viz & interpretation)
+          </li>
+          <li>WGS, ChIP, RNA-seq (bulk, small, single cell, ATAC)</li>
+          <li>Functional genomics (eQTL, GWAS)</li>
+          <li>
+            Coding, computational biology & ML (Unix/NextFlow, R, Python +
+            various libraries)
+          </li>
+          <li>
+            I can also make web apps & visualisations using TS/React/D3.js
+          </li>
+          <li>
+            Cell culture: vascular smooth muscle & endothelial cells, embryonic
+            stem cells, HEK293T, HeLa, S. pombe, plasmid/siRNA/miRNA
+            transfections, nucleofection
+          </li>
+          <li>
+            Wet lab: RNA extraction, PCR, RT-qPCR, immunohistochemistry,
+            immunofluorescence, western blot, X-gal staining, flow cytometry
+            tissue disection
+          </li>
+          <li>
+            Assays: cell proliferation, migration, apoptosis, tube formation,
+            various enzymatic assays
+          </li>
+          <li>
+            Adenoviral vector production, purification & titration, viral
+            transduction of primary cells & cell lines
+          </li>
+        </ul>
+
+        <h1 className="mx-3 my-5 font-serif text-2xl font-bold">In detail:</h1>
+
+        <div className="mx-3 my-3">
+          <p className=" font-bold">
+            ⬇️ My PhD - QMRI, University of Edinburgh, UK
+          </p>
+          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+            Project 1: Identification of novel therapeutic miRNAs for vein graft
+            failure
+          </p>
+          <div className="mx-3">
+            <li>
+              Assessing the effect of 2000+ miRNAs on proliferation via a
+              high-throughput screen
+            </li>
+            <li>
+              Evaluation of top candidates as potential therapeutics in vitro &
+              ex vivo
+            </li>
+            <li>
+              Interrogating the mechanism of action of the candidate miRNA
+              through RNA-seq.
+            </li>
+            <li>Testing adenoviral delivery system in the vasculature. </li>
+          </div>
+          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+            Project 2: Studying endogenous miRNA loci that become deregulated in
+            response to injurious stimuli in vascular smooth muscle cells
+          </p>
+          <div className="mx-3">
+            <li>
+              Developed transcriptomics & genomics pipelines with R, Python,
+              Unix and NextFlow.
+            </li>
+            <li>Statistical analysis of time-series transcriptomics data.</li>
+            <li>
+              Analysis of in-house & public RNA-sequencing datasets (bulk, small
+              & single cell)
+            </li>
+            <li>
+              Functional genomics-based evaluation of the loci of interest using
+              GWAS & eQTL data.{" "}
+            </li>
+          </div>
+          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+            Project 3:  Evaluation of all human miRNAs by predicting processing
+            efficiency
+          </p>
+          <div className="mx-3">
+            Used sequence and structural determinants associated with Drosha
+            recognition and subsequent increased mature miRNA expression to
+            identified the most optimal miRNAs that make the most sense to
+            research and work with for translational projects
+          </div>
+          <p className="mx-3 my-3 text-neutral-800 dark:text-neutral-600 font-bold">
+            Also involved in:
+          </p>
+          <div className="mx-3">
+            <li>
+              A project on extracellular vesicles derived from a stem
+              cell-derived endothelial cell product who's potent angiogenic
+              effect could be harnessed for blood supply restoration in the
+              infracted heart.
+            </li>
+            <li>
+              Extracellular vesicle isolation and RNA-sequencing analysis (small
+              & bulk).
+            </li>
+            <li>Teaching new lab members (students and post-doctoral).</li>
+          </div>
+
+          <p className="mt-5 font-bold">
+            ⬇️ My BBSRC CASE internship - Batavia Biosciences B.V., Leiden, NL
+          </p>
+          <p className="">
+            Training on the generation of clinical-grade, Adenovirus 5-based
+            vectors
+          </p>
+
+          <p className="mt-5 font-bold">
+            ⬇️ My Personal Projects & Collaborations
+          </p>
+          <div className="mx-3">
+            <ul>
+              <li>
+                Created an advanced genome visualisation tool using
+                TS/React/D3.js/Visx/jotai
+              </li>
+              <li>
+                Designed multiomics pipelines the integration of genomic,
+                transcriptomic and proteomic datasets in the context of cancer
+                presision medicine
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-5 font-bold">
+            ⬇️ My BSc Hons Project - Genome Damage & Stability Centre, Sussex,
+            UK
+          </p>
+          <div className="mx-3">
+            <li>Generating Cdc45 mutants by error-prone PCR.</li>
+            <li>
+              S. pombe culture and Cre-lox-mediated insertion of Cdc45 mutants
+            </li>
+            <li>
+              Tertiary protein structure modelling of temperature-sensitive
+              Cdc45 mutants (PyMOL).
+            </li>
+          </div>
+
+          <p className="mt-5 font-bold">
+            ⬇️ My Junior RA Project - Evolution, Behaviour and Environment Dept,
+            Sussex, UK
+          </p>
+          <div className="mx-3">
+            Used single nucleotide polymorphism data (from the 1000 genomes
+            project) and de novo mutation data (from multiple studies) to
+            estimate the variation of the effective population size across the
+            human genome.
+          </div>
+        </div>
+
+        <h1 className="text-xl font-bold">Education</h1>
         <li className="mx-3 my-3 text-neutral-800 dark:text-neutral-600">
-          PhD Vascular Biology | Queen’s Medical Research Institute, University
-          of Edinburgh
+          PhD Cardiovascular Science, Queen’s Medical Research Institute,
+          University of Edinburgh
         </li>
         <li className="mx-3 my-3 text-neutral-800 dark:text-neutral-600">
-          BSc Genetics | School of Life Sciences, University of Sussex
+          BSc Genetics, School of Life Sciences, University of Sussex
         </li>
+
         <div className="mx-3 text-neutral-800 dark:text-neutral-200">
           <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-900" />
 

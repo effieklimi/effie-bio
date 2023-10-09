@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 ::selection {
-  background-color: #DEB0D5;
+  background-color: #deb0d5;
   color: #303030;
 }
 
@@ -14,7 +14,8 @@ html {
 * {
   margin: 0;
 }
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -38,7 +39,8 @@ p small {
   color: #666;
 } */
 
-.highlight-container, .highlight {
+.highlight-container,
+.highlight {
   position: relative;
 }
 
@@ -53,11 +55,17 @@ p small {
   margin-left: -3px;
   margin-right: -3px;
   position: absolute;
-  background: #DEB0D5;
+  background: #deb0d5;
   top: 22px;
   left: 0px;
   border-radius: 20% 30% 40% 30%;
   padding: 5px 10px 3px 0px;
+}
+
+ul {
+  border-radius: 3px 3px 3px 3px;
+  list-style: disc outside none;
+  padding: 10px 10px 10px 25px;
 }
 
 .prose .anchor {
@@ -80,7 +88,7 @@ p small {
 
 .prose .anchor:after {
   @apply text-neutral-300 dark:text-neutral-700;
-  content: '#';
+  content: "#";
 }
 
 .prose *:hover > .anchor {
@@ -111,8 +119,8 @@ p small {
   margin-bottom: 1.25em !important;
 }
 
-code[class*='language-'],
-pre[class*='language-'] {
+code[class*="language-"],
+pre[class*="language-"] {
   @apply text-neutral-50;
 }
 
@@ -126,8 +134,8 @@ pre {
 }
 
 /* Remove Safari input shadow on mobile */
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
