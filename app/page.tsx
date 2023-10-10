@@ -24,28 +24,27 @@ export default async function HomePage() {
     <div>
       <section>
         {/* <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" /> */}
-
+        <h1 className="md:text-3xl text-5xl font-serif font-bold text-center mx-3">
+          Effie Klimi
+        </h1>
         {/* <h1 className="text-lg hidden md:block mx-3">ABOUT</h1> */}
 
         <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div>
 
-        <div className="flex flex-row items-center">
-          {/* <div className="">
+        <div className="flex flex-col items-center">
+          <div className="m-10">
             <Image
               alt={name}
-              className="rounded-3xl"
+              className="rounded-full"
               src={avatar}
               // placeholder="blur"
-              width={600}
-              height={600}
+              width={200}
+              height={200}
               priority
             />
-          </div> */}
+          </div>
 
           <div className="flex flex-col justify-center md:justify-center">
-            <h1 className="md:text-3xl text-5xl m-5 md:mt-1 font-serif font-bold md:text-left text-center">
-              Effie Klimi
-            </h1>
             <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
               {about()}
             </p>

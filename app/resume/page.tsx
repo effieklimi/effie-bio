@@ -136,7 +136,7 @@ export default function AboutPage() {
                 TS/React/D3.js/Visx/jotai
               </li>
               <li>
-                Designed multiomics pipelines the integration of genomic,
+                Designed multiomics pipelines for the integration of genomic,
                 transcriptomic and proteomic datasets in the context of cancer
                 presision medicine
               </li>
