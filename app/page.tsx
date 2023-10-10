@@ -1,84 +1,68 @@
-import Image from 'next/image';
+import Image from "next/image";
 import {
   ArrowIcon,
   // GitHubIcon,
   // TwitterIcon,
   // LinkedInIcon,
-} from 'components/icons';
-import { name, about, bio, avatar, coding } from 'lib/info';
-import './global.css';
+} from "components/icons";
+import { name, about, bio, avatar, coding } from "lib/info";
+import "./global.css";
 // import clsx from 'clsx';
-import localFont from 'next/font/local';
-
-
+import localFont from "next/font/local";
 
 const kaisei = localFont({
-  src: '../public/fonts/kaisei-tokumin-latin-700-normal.woff2',
-  weight: '700',
-  variable: '--font-kaisei',
-  display: 'swap',
+  src: "../public/fonts/kaisei-tokumin-latin-700-normal.woff2",
+  weight: "700",
+  variable: "--font-kaisei",
+  display: "swap",
 });
 
 export const revalidate = 60;
 
 export default async function HomePage() {
-
   return (
     <div>
-    <section >
-      {/* <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" /> */}
-      <h1 className="md:text-3xl text-5xl font-serif font-bold md:text-left text-center mx-3">Effie Klimi</h1>
-      <h1 className="text-lg hidden md:block mx-3">ABOUT</h1>
+      <section>
+        {/* <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" /> */}
+        <h1 className="md:text-3xl text-5xl font-serif font-bold md:text-left text-center mx-3">
+          Effie Klimi
+        </h1>
+        {/* <h1 className="text-lg hidden md:block mx-3">ABOUT</h1> */}
 
-      <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7">
+        <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div>
 
-      </div>
+        <div className="flex flex-col items-center ms-5">
+          <div className="m-10">
+            <Image
+              alt={name}
+              className="rounded-full md:mr-7 mx-auto md:m-0 m-8"
+              src={avatar}
+              // placeholder="blur"
+              width={200}
+              height={200}
+              priority
+            />
+          </div>
 
-      <div className="flex flex-col items-center ms-5">
-        <div className="m-10">
-          <Image
-            alt={name}
-            className="rounded-full md:mr-7 mx-auto md:m-0 m-8"
-            src={avatar}
-            // placeholder="blur"
-            width={200}
-            height={200}
-            priority
-          />
+          <div className="flex flex-col justify-center md:justify-center">
+            <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+              {about()}
+            </p>
+            <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+              {bio()}
+            </p>
+            <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+              {coding()}
+            </p>
+          </div>
+
+          <div className="flex items-start md:items-center my-4 flex-col md:flex-row space-x-7"></div>
         </div>
 
+        <div className="flex flex-row"></div>
+      </section>
 
-        <div className="flex flex-col justify-center md:justify-center">
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
-            {about()}
-          </p>
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
-            {bio()}
-          </p>
-          <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
-            {coding()}
-          </p>
-        </div>
-
-        <div className="flex items-start md:items-center my-4 flex-col md:flex-row space-x-7">
-
-               
-
-        </div>
-      </div>
-
-
-      <div className="flex flex-row">
-
-
-        
-
-      </div>
-
-
-    </section>
-
-    {/* <div className='wrapper'>
+      {/* <div className='wrapper'>
       <div className="push"></div>
     </div>
     <div className="footer">
@@ -87,10 +71,6 @@ export default async function HomePage() {
     </div>
   );
 }
-
-
-
-
 
 // <ul className="flex flex-col md:flex-row mt-8 ml-4 mr-4 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
 // <li>
