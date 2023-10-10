@@ -31,7 +31,7 @@ export const coding = () => {
     <>
       I care about well-designed multiomics pipelines and the intersection of
       science and software that works and looks great. If you want to discuss
-      (your) biotech startup, data infra and software,&nbsp;
+      (your) biotech startup, data analysis set up and infra,&nbsp;
       <a href="mailto:effie@effie.bio">
         <b>
           <span className="highlight-container">
