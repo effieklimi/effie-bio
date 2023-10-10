@@ -36,11 +36,11 @@ export default function AboutPage() {
             Experience on the bench: RNA extraction, PCR, RT-qPCR,
             immunohistochemistry, immunofluorescence, western blot, X-gal
             staining, flow cytometry tissue disection. Numerous
-            phenotypic/functional assays.
+            phenotypic/functional assays
           </li>
           <li>
-            Adenoviral vector production, purification & titration, viral
-            transduction of primary cells & cell lines
+            Adenoviral vector production, viral transduction of primary cells &
+            cell lines
           </li>
           <li>
             I can also make web apps & visualisations using TS/React/D3.js
@@ -67,10 +67,10 @@ export default function AboutPage() {
               ex vivo
             </li>
             <li>
-              Interrogating the mechanism of action of the candidate miRNA
-              through RNA-seq.
+              Interrogating the mechanism of action of the candidate miRNAs
+              through RNA-seq
             </li>
-            <li>Testing adenoviral delivery systems in the vasculature. </li>
+            <li>Testing adenoviral delivery systems in the vasculature </li>
           </ul>
           <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
             Project 2: Studying endogenous miRNA loci that become deregulated in
@@ -79,16 +79,16 @@ export default function AboutPage() {
           <ul className="mx-3">
             <li>
               Developed transcriptomics & genomics pipelines with R, Python,
-              Unix and NextFlow.
+              Unix and NextFlow
             </li>
-            <li>Statistical analysis of time-series transcriptomics data.</li>
+            <li>Analysis of time-series data (ML & non-ML methods)</li>
             <li>
               Analysis of in-house & public RNA-sequencing datasets (bulk, small
               & single cell)
             </li>
             <li>
               Functional genomics-based evaluation of the loci of interest using
-              GWAS & eQTL data.{" "}
+              GWAS/eQTL
             </li>
           </ul>
           <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
@@ -97,10 +97,9 @@ export default function AboutPage() {
           </p>
           <ul className="mx-3">
             <li>
-              Used sequence and structural determinants associated with Drosha
-              recognition and subsequent increased mature miRNA expression to
-              identified the most optimal miRNAs that make the most sense to
-              research and work with for translational projects
+              Using sequence and structural determinants associated with Drosha
+              recognition and increased mature miRNA expression to identify the
+              most optimal miRNAs to study for translational projects
             </li>
           </ul>
           <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
@@ -109,9 +108,8 @@ export default function AboutPage() {
           <ul className="mx-3">
             <li>
               A project on extracellular vesicles derived from a stem
-              cell-derived endothelial cell product who's potent angiogenic
-              effect could be harnessed for blood supply restoration in the
-              infracted heart.
+              cell-derived endothelial cell product with a potent angiogenic
+              effect
             </li>
             <li>
               Extracellular vesicle isolation and RNA-sequencing analysis (small
@@ -151,13 +149,13 @@ export default function AboutPage() {
           </p>
           <div className="mx-3">
             <ul>
-              <li>Generating Cdc45 mutants by error-prone PCR.</li>
+              <li>Generating Cdc45 mutants by error-prone PCR</li>
               <li>
                 S. pombe culture and Cre-lox-mediated insertion of Cdc45 mutants
               </li>
               <li>
                 Tertiary protein structure modelling of temperature-sensitive
-                Cdc45 mutants (PyMOL).
+                Cdc45 mutants (PyMOL)
               </li>
             </ul>
           </div>
@@ -170,7 +168,7 @@ export default function AboutPage() {
             Used single nucleotide polymorphism data (from the 1000 genomes
             project) and de novo mutation data (from multiple studies) to
             estimate the variation of the effective population size across the
-            human genome.
+            human genome
           </div>
         </div>
 
