@@ -30,7 +30,7 @@ export default async function HomePage() {
         <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div>
 
         <div className="flex flex-row items-center">
-          <div className="">
+          {/* <div className="">
             <Image
               alt={name}
               className="rounded-3xl"
@@ -40,7 +40,7 @@ export default async function HomePage() {
               height={600}
               priority
             />
-          </div>
+          </div> */}
 
           <div className="flex flex-col justify-center md:justify-center">
             <h1 className="md:text-3xl text-5xl m-5 md:mt-1 font-serif font-bold md:text-left text-center">
