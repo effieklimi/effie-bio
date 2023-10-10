@@ -1,4 +1,4 @@
-import me from "../app/headshot5.jpg";
+import me from "../app/headshot11.jpg";
 import ek from "../app/ek.jpg";
 
 export const name = "Effie Klimi";
@@ -29,9 +29,9 @@ export const bio = () => {
 export const coding = () => {
   return (
     <>
-      I care about well-designed multiomics pipelines and the intersection of
-      science and software that works and looks great. If you want to discuss
-      (your) biotech startup, data analysis set up and infra,&nbsp;
+      I care about well-designed multiomics pipelines, maximising thinking time
+      for scientists by automating tedious research tasks & making humans more
+      robust. If you want to discuss any of these,&nbsp;
       <a href="mailto:effie@effie.bio">
         <b>
           <span className="highlight-container">

@@ -38,7 +38,6 @@ export default function AboutPage() {
             staining, flow cytometry tissue disection. Numerous
             phenotypic/functional assays.
           </li>
-
           <li>
             Adenoviral vector production, purification & titration, viral
             transduction of primary cells & cell lines
