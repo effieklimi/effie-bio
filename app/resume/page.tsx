@@ -21,27 +21,27 @@ export default function AboutPage() {
             culture & sample collection) to finish (viz & interpretation)
           </li>
           <li>WGS, ChIP, RNA-seq (bulk, small, single cell, ATAC)</li>
-          <li>Functional genomics (eQTL, GWAS)</li>
           <li>
-            Coding, computational biology & ML (Unix/NextFlow, R, Python +
-            various libraries)
+            Coding, computational biology, pipeline development & ML
+            (Unix/NextFlow, R, Python + various libraries)
           </li>
+          <li>Functional genomics (eQTL, GWAS)</li>
           <li>
             I can also make web apps & visualisations using TS/React/D3.js
           </li>
           <li>
-            Cell culture: vascular smooth muscle & endothelial cells, embryonic
-            stem cells, HEK293T, HeLa, S. pombe, plasmid/siRNA/miRNA
+            Experience with cells: vascular smooth muscle & endothelial cells,
+            embryonic stem cells, HEK293T, HeLa, S. pombe, plasmid/siRNA/miRNA
             transfections, nucleofection
           </li>
           <li>
-            Wet lab: RNA extraction, PCR, RT-qPCR, immunohistochemistry,
-            immunofluorescence, western blot, X-gal staining, flow cytometry
-            tissue disection
+            Experience on the bench: RNA extraction, PCR, RT-qPCR,
+            immunohistochemistry, immunofluorescence, western blot, X-gal
+            staining, flow cytometry tissue disection
           </li>
           <li>
-            Assays: cell proliferation, migration, apoptosis, tube formation,
-            various enzymatic assays
+            Assays I have done: cell proliferation, migration, apoptosis, tube
+            formation, various enzymatic assays
           </li>
           <li>
             Adenoviral vector production, purification & titration, viral
@@ -185,7 +185,7 @@ export default function AboutPage() {
           BSc Genetics, School of Life Sciences, University of Sussex
         </li> */}
 
-        <div className="mx-3 text-neutral-800 dark:text-neutral-200">
+        {/* <div className="mx-3 text-neutral-800 dark:text-neutral-200">
           <hr className="h-px my-4 bg-gray-200 border-0 dark:bg-gray-900" />
 
           <div className="flex flex-col gap-2 md:flex-row md:gap-2">
@@ -201,7 +201,7 @@ export default function AboutPage() {
               <ArrowIcon />
             </a>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

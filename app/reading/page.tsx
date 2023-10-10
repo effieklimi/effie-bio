@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ArrowIcon } from "components/icons";
 
 export const metadata: Metadata = {
-  title: "Consulting",
+  title: "Reading",
   description: "",
 };
 
