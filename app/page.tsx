@@ -38,8 +38,8 @@ export default async function HomePage() {
               className="rounded-full md:mr-7 mx-auto md:m-0 m-8"
               src={avatar}
               // placeholder="blur"
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               priority
             />
           </div>

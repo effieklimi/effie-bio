@@ -26,9 +26,7 @@ export default function AboutPage() {
             (Unix/NextFlow, R, Python + various libraries)
           </li>
           <li>Functional genomics (eQTL, GWAS)</li>
-          <li>
-            I can also make web apps & visualisations using TS/React/D3.js
-          </li>
+
           <li>
             Experience with cells: vascular smooth muscle & endothelial cells,
             embryonic stem cells, HEK293T, HeLa, S. pombe, plasmid/siRNA/miRNA
@@ -37,15 +35,16 @@ export default function AboutPage() {
           <li>
             Experience on the bench: RNA extraction, PCR, RT-qPCR,
             immunohistochemistry, immunofluorescence, western blot, X-gal
-            staining, flow cytometry tissue disection
+            staining, flow cytometry tissue disection. Numerous
+            phenotypic/functional assays.
           </li>
-          <li>
-            Assays I have done: cell proliferation, migration, apoptosis, tube
-            formation, various enzymatic assays
-          </li>
+
           <li>
             Adenoviral vector production, purification & titration, viral
             transduction of primary cells & cell lines
+          </li>
+          <li>
+            I can also make web apps & visualisations using TS/React/D3.js
           </li>
         </ul>
 
@@ -72,7 +71,7 @@ export default function AboutPage() {
               Interrogating the mechanism of action of the candidate miRNA
               through RNA-seq.
             </li>
-            <li>Testing adenoviral delivery system in the vasculature. </li>
+            <li>Testing adenoviral delivery systems in the vasculature. </li>
           </ul>
           <p className="mx-3 mt-3 text-neutral-800 dark:text-neutral-600 font-bold">
             Project 2: Studying endogenous miRNA loci that become deregulated in
