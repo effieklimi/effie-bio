@@ -17,39 +17,54 @@ export default function AboutPage() {
         </h1>
         <ul className="mx-3 my-3">
           <li>
-            I can design, perfom & analyse -omics projects from start (cell
-            culture & sample collection) to finish (viz & interpretation)
+            I can design, perfom & analyse -omics projects from start to finish
           </li>
+          <div className="h-[12px]"></div>
+
           <li>WGS, ChIP, RNA-seq (bulk, small, single cell, ATAC)</li>
-          <li>
-            Coding, computational biology, pipeline development & ML
-            (Unix/NextFlow, R, Python + various libraries)
-          </li>
-          <li>Functional genomics (eQTL, GWAS)</li>
+          <div className="h-[12px]"></div>
 
           <li>
-            Experience with cells: vascular smooth muscle & endothelial cells,
-            embryonic stem cells, HEK293T, HeLa, S. pombe, plasmid/siRNA/miRNA
-            transfections, nucleofection
+            Coding, comp bio, pipeline development (Unix/NextFlow, R, Python +
+            various libraries)
           </li>
+          <div className="h-[12px]"></div>
+
+          <li>Functional genomics (eQTL, GWAS)</li>
+          <div className="h-[12px]"></div>
+
           <li>
-            Experience on the bench: RNA extraction, PCR, RT-qPCR,
-            immunohistochemistry, immunofluorescence, western blot, X-gal
-            staining, flow cytometry tissue disection. Numerous
-            phenotypic/functional assays
+            Cell culture: primaries, ESCs, cell lines, S. pombe, transfections,
+            nucleofection
           </li>
+          <div className="h-[12px]"></div>
+
+          <li>
+            Wet lab: RNA extraction, PCR, RT-qPCR, IHC, IF, WB, X-gal staining,
+            FACS + more
+          </li>
+          <div className="h-[12px]"></div>
+
           <li>
             Adenoviral vector production, viral transduction of primary cells &
             cell lines
           </li>
+          <div className="h-[12px]"></div>
+
           <li>
             I can also make web apps & visualisations using TS/React/D3.js
           </li>
         </ul>
 
-        <h1 className="mx-3 my-5 font-serif text-2xl font-bold">In detail:</h1>
+        <a
+          className="mx-3 my-5 font-serif text-2xl underline font-bold hover:text-[#DEB0D5] text-blue-600"
+          href="http://localhost:3001/resume.pdf"
+          target="_blank"
+        >
+          In detail
+        </a>
 
-        <div className="mx-3 my-3">
+        {/* <div className="mx-3 my-3">
           <p className=" font-bold">
             ⬇️ My PhD - QMRI, University of Edinburgh, UK
           </p>
@@ -170,7 +185,7 @@ export default function AboutPage() {
             estimate the variation of the effective population size across the
             human genome
           </div>
-        </div>
+        </div> */}
 
         {/* <h1 className="text-xl font-bold">Education</h1>
         <li className="mx-3 my-3 text-neutral-800 dark:text-neutral-600">
