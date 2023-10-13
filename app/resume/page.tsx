@@ -56,14 +56,6 @@ export default function AboutPage() {
           </li>
         </ul>
 
-        <a
-          className="mx-3 my-5 font-serif text-2xl underline font-bold hover:text-[#DEB0D5] text-blue-600"
-          href="http://localhost:3001/resume.pdf"
-          target="_blank"
-        >
-          In detail
-        </a>
-
         {/* <div className="mx-3 my-3">
           <p className=" font-bold">
             ⬇️ My PhD - QMRI, University of Edinburgh, UK
@@ -213,6 +205,33 @@ export default function AboutPage() {
             </a>
           </div>
         </div> */}
+
+        <a
+          className=" mb-10 font-serif text-2xl font-bold hover:text-slate-600 transition ease-in-out"
+          href="http://localhost:3001/resume.pdf"
+          target="_blank"
+        >
+          <span
+            style={{
+              content: " ",
+              display: "block",
+              height: "4%",
+              width: "14%",
+              marginLeft: "-3px",
+              marginRight: "-3px",
+              position: "relative",
+              background: "#deb0d5",
+              top: "23px",
+              left: "0px",
+              borderRadius: "13% 22% 30% 27%",
+              padding: "0px 0px 3px 0px",
+            }}
+          >
+            <span className="highlight"> &nbsp;In detail</span>
+          </span>
+        </a>
+        <br></br>
+        <br></br>
       </section>
     </div>
   );

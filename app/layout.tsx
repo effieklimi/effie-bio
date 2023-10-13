@@ -78,17 +78,17 @@ export default function RootLayout({
 
         <div className="flex justify-center items-center">
           <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
-            <li>
-              <a
-                className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
-                rel="noopener noreferrer"
-                target="_blank"
-                href="mailto:effie@effie.bio"
-              >
-                <ArrowIcon />
-                <p className="h-7 font-bold">Email me</p>
-              </a>
-            </li>
+            {/* <li> */}
+            <a
+              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="mailto:effie@effie.bio"
+            >
+              <ArrowIcon />
+              <p className="h-7 font-bold">Email me</p>
+            </a>
+            {/* </li> */}
             {/* <p className="h-7 font-bold"> 📍: 🇬🇧🇬🇷🇪🇸🇳🇱</p> */}
           </ul>
         </div>

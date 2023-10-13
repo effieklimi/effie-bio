@@ -35,7 +35,9 @@ export const coding = () => {
       <a href="mailto:effie@effie.bio">
         <b>
           <span className="highlight-container">
-            <span className="highlight">email me!&nbsp;</span>
+            <span className="highlight hover:text-slate-600 transition ease-in-out">
+              email me!&nbsp;
+            </span>
           </span>
         </b>
       </a>
