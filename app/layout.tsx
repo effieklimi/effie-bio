@@ -90,9 +90,17 @@ export default function RootLayout({
           </div>
 
           <div className="flex justify-between items-bottom content-end h-[auto]">
-            <GitHubIcon />
-            <TwitterIcon />
-            <LinkedInIcon />
+            <a href="https://github.com/effieklimi" className="mx-1">
+              <GitHubIcon />
+            </a>
+
+            <a href="https://twitter.com/roboticparts" className="mx-1">
+              <TwitterIcon />
+            </a>
+
+            <a href="https://www.linkedin.com/in/effie-klimi" className="mx-1">
+              <LinkedInIcon />
+            </a>
           </div>
         </div>
       </body>
