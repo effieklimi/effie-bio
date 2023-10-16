@@ -206,30 +206,33 @@ export default function AboutPage() {
           </div>
         </div> */}
 
-        <a
-          className=" mb-10 font-serif text-2xl font-bold hover:text-slate-600 transition ease-in-out"
-          href="http://localhost:3001/resume.pdf"
-          target="_blank"
-        >
-          <span
-            style={{
-              content: " ",
-              display: "block",
-              height: "4%",
-              width: "14%",
-              marginLeft: "-3px",
-              marginRight: "-3px",
-              position: "relative",
-              background: "#deb0d5",
-              top: "23px",
-              left: "0px",
-              borderRadius: "13% 22% 30% 27%",
-              padding: "0px 0px 3px 0px",
-            }}
+        <div className="mx-3">
+          <a
+            className="font-serif text-2xl font-bold hover:text-slate-600 transition ease-in-out"
+            href="http://effie.bio/resume.pdf"
+            target="_blank"
           >
-            <span className="highlight"> &nbsp;In detail</span>
-          </span>
-        </a>
+            <span
+              style={{
+                content: " ",
+                display: "block",
+                height: "4%",
+                width: "14%",
+                marginLeft: "-3px",
+                marginRight: "-3px",
+                position: "relative",
+                background: "#deb0d5",
+                top: "23px",
+                left: "0px",
+                borderRadius: "13% 22% 30% 27%",
+                padding: "0px 0px 3px 0px",
+              }}
+            >
+              <span className="highlight"> &nbsp;In detail</span>
+            </span>
+          </a>
+        </div>
+
         <br></br>
         <br></br>
       </section>

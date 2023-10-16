@@ -5,9 +5,9 @@ import localFont from "next/font/local";
 import Sidebar from "../components/sidebar";
 import {
   ArrowIcon,
-  // GitHubIcon,
-  // TwitterIcon,
-  // LinkedInIcon,
+  GitHubIcon,
+  TwitterIcon,
+  LinkedInIcon,
 } from "components/icons";
 
 const kaisei = localFont({
@@ -76,9 +76,8 @@ export default function RootLayout({
           </main>
         </div>
 
-        <div className="flex justify-center items-center">
-          <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
-            {/* <li> */}
+        <div className="flex justify-between items-center flex-row ">
+          <div className="font-sm text-neutral-500 dark:text-neutral-400">
             <a
               className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
               rel="noopener noreferrer"
@@ -88,9 +87,13 @@ export default function RootLayout({
               <ArrowIcon />
               <p className="h-7 font-bold">Email me</p>
             </a>
-            {/* </li> */}
-            {/* <p className="h-7 font-bold"> 📍: 🇬🇧🇬🇷🇪🇸🇳🇱</p> */}
-          </ul>
+          </div>
+
+          <div className="flex justify-between items-bottom content-end h-[auto]">
+            <GitHubIcon />
+            <TwitterIcon />
+            <LinkedInIcon />
+          </div>
         </div>
       </body>
     </html>
