@@ -78,7 +78,7 @@ export default function RootLayout({
 
         <div className="flex justify-center justify-items-center flex-row m-30">
           <div className="flex flex-col justify-end h-22">
-            <Link href="mailto:effie@effie.bio" target="_blank">
+            <Link href="mailto:effie@effie.bio">
               <Image src={mail} alt="mail" height={22} width={22} />
             </Link>
           </div>
