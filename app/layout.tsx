@@ -76,26 +76,33 @@ export default function RootLayout({
           </main>
         </div>
 
-        <div className="flex justify-center items-center flex-row">
-          <a href="mailto:effie@effie.bio">
-            <Image
-              src={mail}
-              alt="mail"
-              height={25}
-              width={25}
-              className="mx-1"
-            />
-          </a>
+        <div className="flex justify-center justify-items-center flex-row m-30">
+          <div className="flex flex-col justify-end h-22">
+            <Link href="mailto:effie@effie.bio">
+              <Image src={mail} alt="mail" height={22} width={22} />
+            </Link>
+          </div>
 
-          <a href="https://github.com/effieklimi" className="mx-1">
-            <Image src={github} alt="mail" />
-          </a>
-          <a href="https://www.linkedin.com/in/effie-klimi" className="mx-1">
-            <Image src={linkedin} alt="mail" />
-          </a>
-          <a href="https://twitter.com/roboticparts" className="mx-1">
-            <Image src={twitter} alt="mail" />
-          </a>
+          <div className="flex flex-col justify-end h-22">
+            <Link href="https://github.com/effieklimi" className="mx-1">
+              <Image src={github} alt="github" height={22} width={22} />
+            </Link>
+          </div>
+
+          <div className="flex flex-col justify-end h-25">
+            <Link
+              href="https://www.linkedin.com/in/effie-klimi"
+              className="mx-1"
+            >
+              <Image src={linkedin} alt="linkedin" height={22} width={22} />
+            </Link>
+          </div>
+
+          <div className="flex flex-col justify-end h-22">
+            <Link href="https://twitter.com/roboticparts" className="mx-1">
+              <Image src={twitter} alt="twitter" height={22} width={22} />
+            </Link>
+          </div>
         </div>
         {/* </div> */}
       </body>
