@@ -3,12 +3,12 @@ import clsx from "clsx";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Sidebar from "../components/sidebar";
-import {
-  EmailIcon,
-  GitHubIcon,
-  TwitterIcon,
-  LinkedInIcon,
-} from "components/icons";
+import mail from "../app/mail.svg";
+import linkedin from "../app/linkedin.svg";
+import github from "../app/github.svg";
+import twitter from "../app/twitter.svg";
+import Link from "next/link";
+import Image from "next/image";
 
 const kaisei = localFont({
   src: "../public/fonts/kaisei-tokumin-latin-700-normal.woff2",
@@ -76,25 +76,24 @@ export default function RootLayout({
           </main>
         </div>
 
-        <div className="flex justify-between items-center flex-row ">
-          <div className="flex justify-between items-bottom content-end h-[auto]">
-            <a href="mailto:effie@effie.bio">
-              <EmailIcon />
-            </a>
+        <div className="flex justify-center items-center flex-row ">
+          <a href="mailto:effie@effie.bio">
+            <Image src={mail} alt="mail" />
+          </a>
 
-            <a href="https://github.com/effieklimi" className="mx-1">
-              <GitHubIcon />
-            </a>
+          <a href="https://github.com/effieklimi" className="mx-1">
+            <Image src={github} alt="mail" />
+          </a>
 
-            <a href="https://twitter.com/roboticparts" className="mx-1">
-              <TwitterIcon />
-            </a>
+          <a href="https://twitter.com/roboticparts" className="mx-1">
+            <Image src={twitter} alt="mail" />
+          </a>
 
-            <a href="https://www.linkedin.com/in/effie-klimi" className="mx-1">
-              <LinkedInIcon />
-            </a>
-          </div>
+          <a href="https://www.linkedin.com/in/effie-klimi" className="mx-1">
+            <Image src={linkedin} alt="mail" />
+          </a>
         </div>
+        {/* </div> */}
       </body>
     </html>
   );
