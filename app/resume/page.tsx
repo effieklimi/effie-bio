@@ -21,7 +21,7 @@ export default function AboutPage() {
           </li>
           <div className="h-[12px]"></div>
 
-          <li>WGS, ChIP, RNA-seq (bulk, small, single cell, ATAC)</li>
+          <li>WGS, WGBS, ChIP-seq, RNA-seq (bulk, small, single cell)</li>
           <div className="h-[12px]"></div>
 
           <li>
@@ -33,15 +33,12 @@ export default function AboutPage() {
           <li>Functional genomics (eQTL, GWAS)</li>
           <div className="h-[12px]"></div>
 
-          <li>
-            Cell culture: primaries, ESCs, cell lines, S. pombe, transfections,
-            nucleofection
-          </li>
+          <li>Culturing of: primaries, ESCs, cell lines, S. pombe</li>
           <div className="h-[12px]"></div>
 
           <li>
             Wet lab: RNA extraction, PCR, RT-qPCR, IHC, IF, WB, X-gal staining,
-            FACS + more
+            FACS, transfections, nucleofection
           </li>
           <div className="h-[12px]"></div>
 
