@@ -206,7 +206,8 @@ export default function AboutPage() {
           </div>
         </div> */}
 
-        <div className="mx-3 w-[800px]">
+        <div className="mx-3 w-[120px] my-26">
+          <br></br>
           <a
             className="font-serif text-2xl font-bold hover:text-slate-600 transition ease-in-out"
             href="http://effie.bio/resume.pdf"
@@ -216,16 +217,15 @@ export default function AboutPage() {
               style={{
                 content: " ",
                 display: "block",
-                height: "4%",
-                width: "14%",
-                marginLeft: "-3px",
-                marginRight: "-3px",
+                width: "100%",
+
                 position: "relative",
                 background: "#deb0d5",
-                top: "23px",
-                left: "0px",
-                borderRadius: "13% 22% 30% 27%",
-                padding: "0px 0px 3px 0px",
+                borderTopLeftRadius: 20,
+                borderTopRightRadius: 20,
+                borderBottomLeftRadius: 20,
+                borderBottomRightRadius: 20,
+                padding: "5px 5px 5px 5px",
               }}
             >
               <span className="highlight"> &nbsp;In detail</span>
