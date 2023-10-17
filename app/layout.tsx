@@ -78,13 +78,17 @@ export default function RootLayout({
 
         <div className="flex justify-center justify-items-center flex-row m-30">
           <div className="flex flex-col justify-end h-22">
-            <Link href="mailto:effie@effie.bio">
+            <Link href="mailto:effie@effie.bio" target="_blank">
               <Image src={mail} alt="mail" height={22} width={22} />
             </Link>
           </div>
 
           <div className="flex flex-col justify-end h-22">
-            <Link href="https://github.com/effieklimi" className="mx-1">
+            <Link
+              href="https://github.com/effieklimi"
+              className="mx-1"
+              target="_blank"
+            >
               <Image src={github} alt="github" height={22} width={22} />
             </Link>
           </div>
@@ -93,13 +97,18 @@ export default function RootLayout({
             <Link
               href="https://www.linkedin.com/in/effie-klimi"
               className="mx-1"
+              target="_blank"
             >
               <Image src={linkedin} alt="linkedin" height={22} width={22} />
             </Link>
           </div>
 
           <div className="flex flex-col justify-end h-22">
-            <Link href="https://twitter.com/roboticparts" className="mx-1">
+            <Link
+              href="https://twitter.com/roboticparts"
+              className="mx-1"
+              target="_blank"
+            >
               <Image src={twitter} alt="twitter" height={22} width={22} />
             </Link>
           </div>
