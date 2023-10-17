@@ -76,21 +76,25 @@ export default function RootLayout({
           </main>
         </div>
 
-        <div className="flex justify-center items-center flex-row ">
+        <div className="flex justify-center items-center flex-row">
           <a href="mailto:effie@effie.bio">
-            <Image src={mail} alt="mail" />
+            <Image
+              src={mail}
+              alt="mail"
+              height={25}
+              width={25}
+              className="mx-1"
+            />
           </a>
 
           <a href="https://github.com/effieklimi" className="mx-1">
             <Image src={github} alt="mail" />
           </a>
-
-          <a href="https://twitter.com/roboticparts" className="mx-1">
-            <Image src={twitter} alt="mail" />
-          </a>
-
           <a href="https://www.linkedin.com/in/effie-klimi" className="mx-1">
             <Image src={linkedin} alt="mail" />
+          </a>
+          <a href="https://twitter.com/roboticparts" className="mx-1">
+            <Image src={twitter} alt="mail" />
           </a>
         </div>
         {/* </div> */}
