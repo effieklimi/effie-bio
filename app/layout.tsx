@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Sidebar from "../components/sidebar";
 import {
-  ArrowIcon,
+  EmailIcon,
   GitHubIcon,
   TwitterIcon,
   LinkedInIcon,
@@ -77,19 +77,11 @@ export default function RootLayout({
         </div>
 
         <div className="flex justify-between items-center flex-row ">
-          <div className="font-sm text-neutral-500 dark:text-neutral-400">
-            <a
-              className="flex items-center hover:text-neutral-900 dark:hover:text-neutral-400 dark:text-neutral-900 transition-all"
-              rel="noopener noreferrer"
-              target="_blank"
-              href="mailto:effie@effie.bio"
-            >
-              <ArrowIcon />
-              <p className="h-7 font-bold">Email me</p>
-            </a>
-          </div>
-
           <div className="flex justify-between items-bottom content-end h-[auto]">
+            <a href="mailto:effie@effie.bio">
+              <EmailIcon />
+            </a>
+
             <a href="https://github.com/effieklimi" className="mx-1">
               <GitHubIcon />
             </a>
