@@ -225,7 +225,7 @@ export default function AboutPage() {
                 borderTopRightRadius: 20,
                 borderBottomLeftRadius: 20,
                 borderBottomRightRadius: 20,
-                padding: "5px 5px 5px 5px",
+                padding: "5px 5px 7px 5px",
               }}
             >
               <span className="highlight"> &nbsp;In detail</span>

@@ -104,16 +104,19 @@ export default function Navbar() {
                   }
                 )}
               >
-                <span className="relative py-[5px] px-[10px]">
+                <span className="relative py-[7px] px-[15px]">
                   {name}
                   {path === pathname ? (
                     <motion.div
-                      className="absolute inset-0 md:dark:bg-[#DEB0D5] bg-[#DEB0D5] rounded-full z-[-1]"
+                      className="absolute inset-0 md:dark:bg-[#DEB0D5] bg-[#DEB0D5] rounded-full z-[-1] "
                       layoutId="sidebar"
                       transition={{
                         type: "spring",
                         stiffness: 350,
-                        damping: 30,
+                        damping: 40,
+                      }}
+                      style={{
+                        padding: "5px 5px 7px 5px",
                       }}
                     />
                   ) : null}
