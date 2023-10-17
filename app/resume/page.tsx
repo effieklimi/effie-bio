@@ -206,18 +206,18 @@ export default function AboutPage() {
         <div className="mx-3 w-[103px] my-26">
           <br></br>
           <a
-            className="font-serif text-xl font-bold hover:text-slate-600 transition ease-in-out"
+            className="font-serif text-xl font-bold "
             href="http://effie.bio/resume.pdf"
             target="_blank"
           >
             <span
+              className="bg-[#deb0d5] hover:bg-[#CE9AC4] transition ease-in-out"
               style={{
                 content: " ",
                 display: "block",
                 width: "100%",
 
                 position: "relative",
-                background: "#deb0d5",
                 borderTopLeftRadius: 25,
                 borderTopRightRadius: 25,
                 borderBottomLeftRadius: 25,
