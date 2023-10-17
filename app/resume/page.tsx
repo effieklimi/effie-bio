@@ -206,7 +206,7 @@ export default function AboutPage() {
           </div>
         </div> */}
 
-        <div className="mx-3">
+        <div className="mx-3 w-[800px]">
           <a
             className="font-serif text-2xl font-bold hover:text-slate-600 transition ease-in-out"
             href="http://effie.bio/resume.pdf"
