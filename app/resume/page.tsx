@@ -211,7 +211,7 @@ export default function AboutPage() {
             target="_blank"
           >
             <span
-              className="bg-[#deb0d5] hover:bg-[#CE9AC4] transition ease-in-out"
+              className="bg-[#e9a3a0] hover:bg-[#e9a3a0] transition ease-in-out"
               style={{
                 content: " ",
                 display: "block",

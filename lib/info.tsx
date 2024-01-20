@@ -1,5 +1,5 @@
-import me from "../app/headshot13.jpg";
-import ek from "../app/ek.jpg";
+import me from "../app/new.jpg";
+import ek from "../app/ek-logo.png";
 
 export const name = "Effie Klimi";
 export const avatar = me;
