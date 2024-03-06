@@ -1,4 +1,4 @@
-import me from "../app/pfp-orange.jpg";
+import me from "../app/cartoon1.png";
 import ek from "../app/ek-logo.jpg";
 
 export const name = "Effie Klimi";
@@ -29,9 +29,9 @@ export const bio = () => {
 export const coding = () => {
   return (
     <>
-      I care about well-designed multiomics pipelines, maximising thinking time
-      for scientists by automating tedious research tasks & making humans more
-      robust. If you want to discuss any of these,&nbsp;
+      I care well-designed multiomics pipelines, maximising thinking time for
+      scientists via task automation & making humans more robust. If you want to
+      discuss any of these,&nbsp;
       <a href="mailto:effie@effie.bio">
         <b>
           <span className="highlight-container">
