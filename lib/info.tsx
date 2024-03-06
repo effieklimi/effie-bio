@@ -29,9 +29,9 @@ export const bio = () => {
 export const coding = () => {
   return (
     <>
-      I care well-designed multiomics pipelines, maximising thinking time for
-      scientists via task automation & making humans more robust. If you want to
-      discuss any of these,&nbsp;
+      I care about well-designed multiomics pipelines, maximising thinking time
+      for scientists via task automation & making humans more robust. If you
+      want to discuss any of these,&nbsp;
       <a href="mailto:effie@effie.bio">
         <b>
           <span className="highlight-container">
