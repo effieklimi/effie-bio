@@ -7,21 +7,35 @@ export const logo = ek;
 export const about = () => {
   return (
     <>
-      I'm{" "}
-      <span className="highlight-container">
-        <span className="highlight">
-          <b>Effie.</b>
-        </span>
-      </span>{" "}
-      I do research in biology and build software to accelerate science.
+      I've done research in vascular biology, viral vectors and nucleic acid
+      therapeutics in academia and in biotech. I've also worked in evolutionary
+      genetics, omics and genome stability.
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      I've worked on basic research, evolutionary genetics, multiomics and my
-      PhD in RNA therapeutics & viral vectors @ The University of Edinburgh.
+      <b>
+        I care a lot about increasing the robustness of both young and old
+        humans.&nbsp;
+      </b>
+      I am especially interested in aleviating the suffering that worsens with
+      the passage of time (ageing).
+      <br />
+      <br />
+      Other things I care about/like: <br />
+      <br />
+      <div className="px-4 mx-4">
+        • the wet lab <br />
+        • multimodality in biology <br />
+        • paper replication in biology <br />
+        • heavily personalising my working interface & tools <br />
+        • learning <br />
+        • words & language <br />
+        • the West <br />
+      </div>
+      <br />
     </>
   );
 };
@@ -29,18 +43,17 @@ export const bio = () => {
 export const coding = () => {
   return (
     <>
-      I care about well-designed multiomics pipelines, maximising thinking time
-      for scientists via task automation & making humans more robust. If you
-      want to discuss any of these,&nbsp;
+      If you also find any of the above interesting,&nbsp;
       <a href="mailto:effie@effie.bio">
         <b>
           <span className="highlight-container">
             <span className="highlight hover:text-slate-600 transition ease-in-out">
-              email me!&nbsp;
+              email me.&nbsp;
             </span>
           </span>
         </b>
       </a>
+      Happy to chat. I'm based in the UK.
     </>
   );
 };

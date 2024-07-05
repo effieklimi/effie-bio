@@ -38,22 +38,22 @@ export default async function HomePage() {
               className="rounded-full"
               src={avatar}
               // placeholder="blur"
-              width={200}
-              height={200}
+              width={150}
+              height={150}
               priority
             />
           </div>
 
           <div className="flex flex-col justify-center md:justify-center">
-            <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+            <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
               {about()}
-            </p>
-            <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+            </div>
+            <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
               {bio()}
-            </p>
-            <p className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+            </div>
+            <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
               {coding()}
-            </p>
+            </div>
           </div>
 
           <div className="flex items-start md:items-center my-4 flex-col md:flex-row space-x-7"></div>
