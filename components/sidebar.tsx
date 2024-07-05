@@ -37,6 +37,7 @@ function Logo() {
         width={150}
         priority
       />
+
       <motion.path
         initial={{
           opacity: 0,
@@ -78,9 +79,15 @@ export default function Navbar() {
 
   return (
     <header className="flex flex-row items-center md:flex md:flex-row  md:items-center justify-between  md:w-full md:flex-shrink-0 px-0 font-serif space-x-4 md:space-x-0">
-      <Link href="https://effie.bio">
-        <Image className="h-16 w-16 hidden md:block" src={logo} alt="logo" />
-      </Link>
+      <div className="flex flex-row space-x-4">
+        <Link href="https://effie.bio">
+          <Image className="h-16 w-16 hidden md:block" src={logo} alt="logo" />
+        </Link>
+        <p className="flex justify-center place-items-center text-2xl">
+          Effie Klimi
+        </p>
+      </div>
+
       {/* <div className="md:font-bold font-serif md:text-4xl md:py-2">
             Effie Klimi
         </div> */}

@@ -23,12 +23,6 @@ export default async function HomePage() {
   return (
     <div>
       <section>
-        {/* <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" /> */}
-        <h1 className="md:text-3xl text-5xl font-serif font-bold text-center mx-3">
-          Effie Klimi
-        </h1>
-        {/* <h1 className="text-lg hidden md:block mx-3">ABOUT</h1> */}
-
         <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div>
 
         <div className="flex flex-col items-center">

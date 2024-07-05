@@ -27,7 +27,6 @@ export const bio = () => {
       Other things I care about/like: <br />
       <br />
       <div className="px-4 mx-4">
-        • the wet lab <br />
         • multimodality in biology <br />
         • paper replication in biology <br />
         • heavily personalising my working interface & tools <br />
@@ -53,7 +52,7 @@ export const coding = () => {
           </span>
         </b>
       </a>
-      Happy to chat. I'm based in the UK.
+      I'm based in the UK.
     </>
   );
 };
