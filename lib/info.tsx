@@ -21,8 +21,8 @@ export const bio = () => {
         I care a lot about increasing the robustness of both young and old
         humans.&nbsp;
       </b>
-      I am especially interested in alleviating the suffering that worsens with
-      the passage of time (ageing).
+      I am especially interested in alleviating the biological deterioration and
+      suffering that worsens with the passage of time (ageing).
       <br />
       <br />
       Other things I care about: <br />
