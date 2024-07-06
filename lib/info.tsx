@@ -8,8 +8,9 @@ export const about = () => {
   return (
     <>
       I've done research in vascular biology, viral vectors and nucleic acid
-      therapeutics in academia and in biotech. I've also worked in evolutionary
-      genetics, omics and genome stability.
+      therapeutics in academia (@ the University of Edinburgh) and in biotech.
+      I've also worked in RNA biology, evolutionary genetics, omics and genome
+      stability.
     </>
   );
 };
@@ -24,15 +25,22 @@ export const bio = () => {
       the passage of time (ageing).
       <br />
       <br />
-      Other things I care about/like: <br />
+      Other things I care about: <br />
       <br />
       <div className="px-4 mx-4">
-        • multimodality in biology <br />
+        • polymathy and being knowledgeable across disciplines <br />
         • paper replication in biology <br />
         • heavily personalising my working interface & tools <br />
-        • learning <br />
-        • words & language <br />
-        • the West <br />
+        • words & language <br />• the West (read&nbsp;
+        <a
+          href="https://chooser.crossref.org/?doi=10.2307%2Fj.ctt3fgz1q"
+          target="_blank"
+        >
+          <u>
+            <span className="italics">this</span>
+          </u>
+        </a>
+        ) <br />
       </div>
       <br />
     </>
