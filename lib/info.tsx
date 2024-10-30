@@ -8,9 +8,9 @@ export const about = () => {
   return (
     <>
       I've done research in vascular biology, viral vectors and nucleic acid
-      therapeutics in academia (@ the University of Edinburgh) and in biotech.
-      I've also worked in RNA biology, evolutionary genetics, omics and genome
-      stability.
+      therapeutics in academia (@ <b>The University of Edinburgh</b>) and in
+      biotech. I've also worked in RNA biology, evolutionary genetics, omics and
+      genome stability.
     </>
   );
 };
@@ -28,10 +28,7 @@ export const bio = () => {
       Other things I care about: <br />
       <br />
       <div className="px-4 mx-4">
-        • polymathy and being knowledgeable across disciplines <br />
-        • paper replication in biology <br />
-        • heavily personalising my working interface & tools <br />
-        • words & language <br />• the West (read&nbsp;
+        • abundance + economic prosperity (read&nbsp;
         <a
           href="https://chooser.crossref.org/?doi=10.2307%2Fj.ctt3fgz1q"
           target="_blank"
@@ -41,6 +38,9 @@ export const bio = () => {
           </u>
         </a>
         ) <br />
+        • polymathy + lifelong learning <br />
+        • heavily personalising my working interface & tools <br />
+        • words & language <br />
       </div>
       <br />
     </>
