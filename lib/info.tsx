@@ -1,4 +1,4 @@
-import me from "./../app/cartoon3.jpg";
+import me from "./../app/cartoon1.png";
 import ek from "../app/ek-logo.jpg";
 
 export const name = "Effie Klimi";
@@ -7,14 +7,30 @@ export const logo = ek;
 export const about = () => {
   return (
     <>
-      I've done research in vascular biology, viral vectors and nucleic acid
-      therapeutics in academia (@ <b>The University of Edinburgh</b>) and in
-      biotech. I've also worked in RNA biology, evolutionary genetics, omics and
-      genome stability.
+      • PhD @ University of Edinburgh <br />• Drylab Inc <br />• Delphic Dialogs
     </>
   );
 };
+
 export const bio = () => {
+  return (
+    <>
+      • Improvement in late-life quality of life <br />
+      • Gene delivery <br />
+      • Climate optimism <br />
+      • Economic growth + prosperity <br />•{" "}
+      <a
+        href="https://chooser.crossref.org/?doi=10.2307%2Fj.ctt3fgz1q"
+        target="_blank"
+      >
+        <u>
+          <span className="italics">Historio/socioeconomics</span>
+        </u>
+      </a>
+    </>
+  );
+};
+export const mainInterests = () => {
   return (
     <>
       <b>
@@ -28,15 +44,15 @@ export const bio = () => {
       Other things I care about: <br />
       <br />
       <div className="px-4 mx-4">
-        • abundance + economic prosperity (read&nbsp;
-        <a
+        • abundance + economic prosperity {/*(read&nbsp; */}
+        {/* <a
           href="https://chooser.crossref.org/?doi=10.2307%2Fj.ctt3fgz1q"
           target="_blank"
         >
           <u>
             <span className="italics">this</span>
           </u>
-        </a>
+        </a> */}
         ) <br />
         • polymathy + lifelong learning <br />
         • heavily personalising my working interface & tools <br />
@@ -60,7 +76,6 @@ export const coding = () => {
           </span>
         </b>
       </a>
-      I'm based in the UK.
     </>
   );
 };

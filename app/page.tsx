@@ -25,24 +25,35 @@ export default async function HomePage() {
       <section>
         <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div>
 
-        <div className="flex flex-col items-center">
-          <div className="m-10">
+        <div className="flex flex-col justify-left items-left">
+          <div className="my-12">
             <Image
               alt={name}
-              className="rounded-full"
+              className=""
               src={avatar}
               // placeholder="blur"
-              width={150}
-              height={150}
+              width={120}
+              height={120}
               priority
             />
           </div>
 
-          <div className="flex flex-col justify-center md:justify-center">
+          <div className="flex flex-col w-full md:justify-center">
+            <div>
+              <p>
+                I currently live in London and started building scientific
+                software.
+              </p>
+            </div>
             <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+              <h1 className="font-bold">
+                <br />
+                My projects:
+              </h1>
               {about()}
             </div>
             <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
+              <h1 className="font-bold">Interests:</h1>
               {bio()}
             </div>
             <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
