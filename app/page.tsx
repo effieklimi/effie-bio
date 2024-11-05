@@ -5,7 +5,7 @@ import {
   // TwitterIcon,
   // LinkedInIcon,
 } from "components/icons";
-import { name, about, bio, avatar, coding } from "lib/info";
+import { name, about, bio, avatar } from "lib/info";
 import "./global.css";
 // import clsx from 'clsx';
 import localFont from "next/font/local";
