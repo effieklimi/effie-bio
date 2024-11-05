@@ -3,12 +3,12 @@ import clsx from "clsx";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Sidebar from "../components/sidebar";
-import mail from "../app/mail.svg";
-import linkedin from "../app/linkedin.svg";
-import github from "../app/github.svg";
-import twitter from "../app/twitter.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { Linkedin } from "lucide-react";
+import { Mail } from "lucide-react";
+import { Github } from "lucide-react";
+import { Twitter } from "lucide-react";
 
 const kaisei = localFont({
   src: "../public/fonts/kaisei-tokumin-latin-700-normal.woff2",
@@ -81,8 +81,12 @@ export default function RootLayout({
         <div className="mt-auto">
           <div className=" footer pt-12 bottom-0 w-full flex justify-center justify-items-center flex-row my-4">
             <div className="flex flex-col justify-end h-22">
-              <Link href="mailto:effie@effie.bio">
-                <Image src={mail} alt="mail" height={22} width={22} />
+              <Link
+                href="mailto:effie@effie.bio"
+                className="mx-1"
+                target="_blank"
+              >
+                <Mail size={22} color="#67ad95" strokeWidth={1.5} />
               </Link>
             </div>
 
@@ -92,17 +96,17 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                <Image src={github} alt="github" height={22} width={22} />
+                <Github size={22} color="#67ad95" strokeWidth={1.5} />
               </Link>
             </div>
 
-            <div className="flex flex-col justify-end h-25">
+            <div className="flex flex-col justify-end h-22">
               <Link
                 href="https://www.linkedin.com/in/effie-klimi"
                 className="mx-1"
                 target="_blank"
               >
-                <Image src={linkedin} alt="linkedin" height={22} width={22} />
+                <Linkedin size={22} color="#67ad95" strokeWidth={1.5} />{" "}
               </Link>
             </div>
 
@@ -112,7 +116,7 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                <Image src={twitter} alt="twitter" height={22} width={22} />
+                <Twitter size={22} color="#67ad95" strokeWidth={1.5} />
               </Link>
             </div>
           </div>
