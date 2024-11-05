@@ -7,7 +7,19 @@ export const logo = ek;
 export const about = () => {
   return (
     <>
-      • PhD @ University of Edinburgh <br />• Drylab Inc <br />• Delphic Dialogs
+      •{" "}
+      <a href="https://drylab-inc.girhub.io" target="_blank">
+        <u>
+          <span className="italics">Drylab</span>
+        </u>
+      </a>{" "}
+      <br />•{" "}
+      <a href="https://effieklimi.substack.com" target="_blank">
+        <u>
+          <span className="italics">Delphic Dialogs</span>
+        </u>
+      </a>
+      <br />• PhD @ University of Edinburgh
     </>
   );
 };
@@ -15,8 +27,8 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      • Improvement in late-life quality of life <br />
-      • Gene delivery <br />
+      • <b> Improvement in late-life quality of life & anti-frailty </b> <br />•{" "}
+      <b> Gene delivery </b> <br />• <b> Bio/technological progress </b> <br />
       • Climate optimism <br />
       • Economic growth + prosperity <br />•{" "}
       <a
@@ -27,55 +39,12 @@ export const bio = () => {
           <span className="italics">Historio/socioeconomics</span>
         </u>
       </a>
-    </>
-  );
-};
-export const mainInterests = () => {
-  return (
-    <>
-      <b>
-        I care a lot about increasing the biological robustness of both young
-        and old people.&nbsp;
-      </b>
-      I am especially interested in alleviating the deterioration and suffering
-      that worsens with the passage of time (ageing).
-      <br />
-      <br />
-      Other things I care about: <br />
-      <br />
-      <div className="px-4 mx-4">
-        • abundance + economic prosperity {/*(read&nbsp; */}
-        {/* <a
-          href="https://chooser.crossref.org/?doi=10.2307%2Fj.ctt3fgz1q"
-          target="_blank"
-        >
-          <u>
-            <span className="italics">this</span>
-          </u>
-        </a> */}
-        ) <br />
-        • polymathy + lifelong learning <br />
-        • heavily personalising my working interface & tools <br />
-        • words & language <br />
-      </div>
-      <br />
-    </>
-  );
-};
-
-export const coding = () => {
-  return (
-    <>
-      If you also find any of the above interesting,&nbsp;
-      <a href="mailto:effie@effie.bio">
-        <b>
-          <span className="highlight-container">
-            <span className="highlight hover:text-slate-600 transition ease-in-out">
-              email me.&nbsp;
-            </span>
-          </span>
-        </b>
-      </a>
+      <br /> • <b>Culture shifts and how they happen</b>
+      <br />• Mythology, symbolism and fiction
+      <br /> • <b>Christian theology and liturgy</b>
+      <br /> • <b>Working towards polymathy</b>
+      <br />• The planets Saturn and Jupiter
+      <br />• Music composition and orchestration
     </>
   );
 };

@@ -25,46 +25,51 @@ export default async function HomePage() {
       <section>
         <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div>
 
-        <div className="flex flex-col justify-left items-left">
-          <div className="my-12">
-            <Image
-              alt={name}
-              className=""
-              src={avatar}
-              // placeholder="blur"
-              width={120}
-              height={120}
-              priority
-            />
-          </div>
+        <div className="flex flex-col items-center">
+          <div className="flex flex-col w-full md:justify-center space-y-10">
+            <div className="flex flex-row space-x-6">
+              <p className="font-mono w-1/6 text-right"></p>
+              <div className="pt-12 flex flex-col">
+                <Image
+                  alt={name}
+                  className="rounded-lg"
+                  src={avatar}
+                  // placeholder="blur"
+                  width={120}
+                  height={120}
+                  priority
+                />
+                <h3 className="font-bold pt-10 font-mono text-3xl">
+                  Effie Klimi
+                </h3>
+              </div>
+            </div>
 
-          <div className="flex flex-col w-full md:justify-center">
-            <div>
+            <div className="flex flex-row space-x-6">
+              <p className="font-mono w-1/6 text-right">about</p>
               <p>
-                I currently live in London and started building scientific
-                software.
+                I am a molecular biologist, bioinformatician and software
+                developer based in London. <br />
+                <a href="mailto:hi@effie.bio" target="_blank">
+                  <u>
+                    <span className="italics">Email me</span>
+                  </u>
+                </a>{" "}
+                if you want to talk about any of my projects/interests.
               </p>
             </div>
-            <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
-              <h1 className="font-bold">
-                <br />
-                My projects:
-              </h1>
-              {about()}
+
+            <div className="flex flex-row space-x-6">
+              <p className="font-mono w-1/6 text-right">my projects</p>
+              <p>{about()}</p>
             </div>
-            <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
-              <h1 className="font-bold">Interests:</h1>
-              {bio()}
-            </div>
-            <div className="m-5 md:mt-1 text-neutral-900 dark:text-neutral-900 text-justify">
-              {coding()}
+
+            <div className="flex flex-row space-x-6">
+              <p className="font-mono w-1/6 text-right">interests</p>
+              <p>{bio()}</p>
             </div>
           </div>
-
-          <div className="flex items-start md:items-center my-4 flex-col md:flex-row space-x-7"></div>
         </div>
-
-        <div className="flex flex-row"></div>
       </section>
 
       {/* <div className='wrapper'>

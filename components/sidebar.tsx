@@ -18,12 +18,12 @@ const navItems = {
   // '/consulting': {
   //   name: 'Consulting',
   // },
-  // '/reading': {
-  //   name: "Reading",
-  // },
-  "/resume": {
-    name: "Resume",
+  "/reading": {
+    name: "Reading",
   },
+  // "/resume": {
+  //   name: "Resume",
+  // },
 };
 
 function Logo() {
@@ -78,15 +78,18 @@ export default function Navbar() {
   }
 
   return (
-    <header className="flex flex-row items-center md:flex md:flex-row  md:items-center justify-between  md:w-full md:flex-shrink-0 px-0 font-serif space-x-4 md:space-x-0">
-      <div className="flex flex-row space-x-4">
+    <header className="flex flex-row items-center md:flex md:flex-row  md:items-center justify-start pl-48  md:w-full md:flex-shrink-0 px-0 font-serif space-x-4 md:space-x-0">
+      {/* <div className="flex flex-row space-x-4">
         <Link href="https://effie.bio">
-          <Image className="h-16 w-16 hidden md:block" src={logo} alt="logo" />
+          <Image className="h-14 w-14 hidden md:block" src={logo} alt="logo" />
         </Link>
-        <p className="flex justify-center place-items-center text-2xl">
+        <a
+          className="flex justify-center place-items-center text-2xl"
+          href="https://effie.bio"
+        >
           Effie Klimi
-        </p>
-      </div>
+        </a>
+      </div> */}
 
       {/* <div className="md:font-bold font-serif md:text-4xl md:py-2">
             Effie Klimi
@@ -123,7 +126,7 @@ export default function Navbar() {
                         damping: 40,
                       }}
                       style={{
-                        padding: "5px 5px 7px 5px",
+                        padding: "0px 5px 7px 5px",
                       }}
                     />
                   ) : null}
