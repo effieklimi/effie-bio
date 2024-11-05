@@ -78,7 +78,7 @@ export default function RootLayout({
           </main>
         </div>
 
-        <div className="mt-auto">
+        <div className="mt-auto py-4">
           <div className=" footer pt-12 bottom-0 w-full flex justify-center justify-items-center flex-row my-4">
             <div className="flex flex-col justify-end h-22">
               <Link
