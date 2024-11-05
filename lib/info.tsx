@@ -8,13 +8,13 @@ export const about = () => {
   return (
     <>
       •{" "}
-      <a href="https://drylab-inc.girhub.io" target="_blank">
+      <a href="https://drylab-inc.github.io" target="_blank">
         <u>
           <span className="italics">Drylab</span>
         </u>
       </a>{" "}
       <br />•{" "}
-      <a href="https://effieklimi.substack.com" target="_blank">
+      <a href="https://effieklimi.substack.com/welcome" target="_blank">
         <u>
           <span className="italics">Delphic Dialogs</span>
         </u>
