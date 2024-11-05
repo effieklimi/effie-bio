@@ -79,7 +79,7 @@ export default function RootLayout({
         </div>
 
         <div className="mt-auto">
-          <div className=" footer absolute bottom-0 w-full flex justify-center justify-items-center flex-row my-4">
+          <div className=" footer pt-12 bottom-0 w-full flex justify-center justify-items-center flex-row my-4">
             <div className="flex flex-col justify-end h-22">
               <Link href="mailto:effie@effie.bio">
                 <Image src={mail} alt="mail" height={22} width={22} />

@@ -27,8 +27,9 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      • <b> Improvement in late-life quality of life & anti-frailty </b> <br />•{" "}
-      <b> Gene delivery </b> <br />• <b> Bio/technological progress </b> <br />
+      • Improvement in late-life QoL <br />• Gene delivery <br />
+      • Anti-frailty/ageing <br />
+      • Bio/technological progress <br />
       • Climate optimism <br />
       • Economic growth + prosperity <br />•{" "}
       <a
@@ -39,10 +40,10 @@ export const bio = () => {
           <span className="italics">Historio/socioeconomics</span>
         </u>
       </a>
-      <br /> • <b>Culture shifts and how they happen</b>
+      <br /> • Culture shifts and how they happen
       <br />• Mythology, symbolism and fiction
-      <br /> • <b>Christian theology and liturgy</b>
-      <br /> • <b>Working towards polymathy</b>
+      <br /> • Christian theology and liturgy
+      <br /> • Working towards polymathy
       <br />• The planets Saturn and Jupiter
       <br />• Music composition and orchestration
     </>
