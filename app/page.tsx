@@ -32,7 +32,7 @@ export default async function HomePage() {
               <div className="pt-12 flex flex-col">
                 <Image
                   alt={name}
-                  className="rounded-lg"
+                  className="rounded-lg border-4 border-[#87d4b9]"
                   src={avatar}
                   // placeholder="blur"
                   width={120}
@@ -46,26 +46,33 @@ export default async function HomePage() {
             </div>
 
             <div className="flex flex-row space-x-6">
-              <p className="font-mono w-1/6 text-right">about</p>
+              <p className="font-mono w-1/6 text-right text-[#67ad95]">
+                /about
+              </p>
               <p>
                 I am a molecular biologist, bioinformatician and software
-                developer based in London. <br />
+                developer based in London. <br /> Email me at{" "}
                 <a href="mailto:hi@effie.bio" target="_blank">
                   <u>
-                    <span className="italics">Email me</span>
+                    <span className="italics">hi@effie.bio</span>
                   </u>
-                </a>{" "}
-                if you want to talk about any of my projects/interests.
+                </a>
+                .
               </p>
             </div>
 
             <div className="flex flex-row space-x-6">
-              <p className="font-mono w-1/6 text-right">my projects</p>
+              <p className="font-mono w-1/6 text-right text-[#67ad95]">
+                {" "}
+                /projects
+              </p>
               <p>{about()}</p>
             </div>
 
             <div className="flex flex-row space-x-6">
-              <p className="font-mono w-1/6 text-right">interests</p>
+              <p className="font-mono w-1/6 text-right text-[#67ad95]">
+                /interests
+              </p>
               <p>{bio()}</p>
             </div>
           </div>
