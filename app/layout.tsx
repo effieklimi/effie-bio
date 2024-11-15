@@ -86,7 +86,8 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                <Mail size={22} color="#67ad95" strokeWidth={1.5} />
+                {/* <Mail size={22} color="#67ad95" strokeWidth={1.5} /> */}
+                <p>email</p>
               </Link>
             </div>
 
@@ -96,7 +97,8 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                <Github size={22} color="#67ad95" strokeWidth={1.5} />
+                {/* <Github size={22} color="#67ad95" strokeWidth={1.5} /> */}
+                <p>github</p>
               </Link>
             </div>
 
@@ -106,7 +108,8 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                <Linkedin size={22} color="#67ad95" strokeWidth={1.5} />{" "}
+                {/* <Linkedin size={22} color="#67ad95" strokeWidth={1.5} />{" "} */}
+                <p>linkedin</p>
               </Link>
             </div>
 
@@ -116,7 +119,8 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                <Twitter size={22} color="#67ad95" strokeWidth={1.5} />
+                {/* <Twitter size={22} color="#67ad95" strokeWidth={1.5} /> */}
+                <p>twitter</p>
               </Link>
             </div>
           </div>
