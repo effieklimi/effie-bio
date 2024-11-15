@@ -87,7 +87,9 @@ export default function RootLayout({
                 target="_blank"
               >
                 {/* <Mail size={22} color="#67ad95" strokeWidth={1.5} /> */}
-                <p className="text-[#559e84] hover:underline">email</p>
+                <p className="text-[#559e84] hover:underline font-mono">
+                  email
+                </p>
               </Link>
             </div>
 
