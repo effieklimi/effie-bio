@@ -87,7 +87,7 @@ export default function RootLayout({
                 target="_blank"
               >
                 {/* <Mail size={22} color="#67ad95" strokeWidth={1.5} /> */}
-                <p>email</p>
+                <p className="text-[#67ad95] hover:underline">email</p>
               </Link>
             </div>
 
@@ -98,7 +98,7 @@ export default function RootLayout({
                 target="_blank"
               >
                 {/* <Github size={22} color="#67ad95" strokeWidth={1.5} /> */}
-                <p>github</p>
+                <p className="text-[#67ad95] hover:underline">github</p>
               </Link>
             </div>
 
@@ -109,7 +109,7 @@ export default function RootLayout({
                 target="_blank"
               >
                 {/* <Linkedin size={22} color="#67ad95" strokeWidth={1.5} />{" "} */}
-                <p>linkedin</p>
+                <p className="text-[#67ad95] hover:underline">linkedin</p>
               </Link>
             </div>
 
@@ -120,7 +120,7 @@ export default function RootLayout({
                 target="_blank"
               >
                 {/* <Twitter size={22} color="#67ad95" strokeWidth={1.5} /> */}
-                <p>twitter</p>
+                <p className="text-[#67ad95] hover:underline">twitter</p>
               </Link>
             </div>
           </div>
