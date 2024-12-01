@@ -118,7 +118,7 @@ export default function Navbar() {
                   {name}
                   {path === pathname ? (
                     <motion.div
-                      className="absolute inset-0  bg-[#e9a3a0] hover:bg-[#e9a3a0] rounded-full z-[-1] "
+                      className="absolute inset-0  bg-[#406390] hover:bg-[#406390] rounded-full z-[-1] "
                       layoutId="sidebar"
                       transition={{
                         type: "spring",

@@ -33,11 +33,10 @@ export default async function HomePage() {
                 <div className="flex justify-center md:justify-start">
                   <Image
                     alt={name}
-                    className="rounded-lg border-4 border-[#87d4b9]"
+                    className=""
                     src={avatar}
                     // placeholder="blur"
-                    width={120}
-                    height={120}
+                    width={600}
                     priority
                   />
                 </div>
@@ -49,7 +48,7 @@ export default async function HomePage() {
             </div>
 
             <div className="flex flex-col lg:flex-row text-md lg:text-lg lg:space-x-12">
-              <p className="font-mono w-1/6 lg:text-right text-left text-[#67ad95]">
+              <p className="font-mono w-1/6 lg:text-right text-left text-[#406390]">
                 /about
               </p>
               <p className="w-ful">
@@ -65,7 +64,7 @@ export default async function HomePage() {
             </div>
 
             <div className="flex flex-col lg:flex-row text-md lg:text-lg lg:space-x-12">
-              <p className="font-mono w-1/6 lg:text-right text-left text-[#67ad95]">
+              <p className="font-mono w-1/6 lg:text-right text-left text-[#406390]">
                 {" "}
                 /projects
               </p>
@@ -73,7 +72,7 @@ export default async function HomePage() {
             </div>
 
             <div className="flex flex-col lg:flex-row text-md lg:text-lg lg:space-x-12">
-              <p className="font-mono w-1/6 lg:text-right text-left text-[#67ad95]">
+              <p className="font-mono w-1/6 lg:text-right text-left text-[#406390]">
                 /interests
               </p>
               <p className="w-5/6">{bio()}</p>

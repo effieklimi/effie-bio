@@ -1,4 +1,4 @@
-import me from "./../app/cartoon3.jpg";
+import me from "./../app/SF.png";
 import ek from "../app/ek-logo.jpg";
 
 export const name = "Effie Klimi";

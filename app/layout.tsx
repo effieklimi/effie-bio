@@ -79,15 +79,15 @@ export default function RootLayout({
         </div>
 
         <div className="mt-auto">
-          <div className=" footer pt-12 bottom-0 w-full flex justify-center justify-items-center flex-row my-4">
+          <div className=" footer pt-12 bottom-0 w-full flex space-x-4 justify-center justify-items-center flex-row my-4">
             <div className="flex flex-col justify-end h-22">
               <Link
                 href="mailto:effie@effie.bio"
                 className="mx-1"
                 target="_blank"
               >
-                {/* <Mail size={22} color="#67ad95" strokeWidth={1.5} /> */}
-                <p className="text-[#559e84] hover:underline font-mono">
+                {/* <Mail size={22} color="#406390" strokeWidth={1.5} /> */}
+                <p className="text-[#406390] hover:underline font-mono">
                   email
                 </p>
               </Link>
@@ -99,8 +99,8 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                {/* <Github size={22} color="#67ad95" strokeWidth={1.5} /> */}
-                <p className="text-[#559e84] hover:underline font-mono">
+                {/* <Github size={22} color="#406390" strokeWidth={1.5} /> */}
+                <p className="text-[#406390] hover:underline font-mono">
                   github
                 </p>
               </Link>
@@ -112,8 +112,8 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                {/* <Linkedin size={22} color="#67ad95" strokeWidth={1.5} />{" "} */}
-                <p className="text-[#559e84] hover:underline font-mono">
+                {/* <Linkedin size={22} color="#406390" strokeWidth={1.5} />{" "} */}
+                <p className="text-[#406390] hover:underline font-mono">
                   linkedin
                 </p>
               </Link>
@@ -125,8 +125,8 @@ export default function RootLayout({
                 className="mx-1"
                 target="_blank"
               >
-                {/* <Twitter size={22} color="#67ad95" strokeWidth={1.5} /> */}
-                <p className="text-[#559e84] hover:underline font-mono">
+                {/* <Twitter size={22} color="#406390" strokeWidth={1.5} /> */}
+                <p className="text-[#406390] hover:underline font-mono">
                   twitter
                 </p>
               </Link>
