@@ -1,5 +1,5 @@
 import me from "./../app/SF.png";
-import ek from "../app/ek-logo.jpg";
+import ek from "../app/newEK.png";
 
 export const name = "Effie Klimi";
 export const avatar = me;
