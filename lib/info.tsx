@@ -16,9 +16,10 @@ export const about = () => {
       <br />•{" "}
       <a href="https://effieklimi.substack.com/welcome" target="_blank">
         <u>
-          <span className="italics">Delphic Dialogs</span>
+          <span className="italics">Delphic Dialogs</span>,
         </u>
-      </a>
+      </a>{" "}
+      my blog
       <br />• PhD @ University of Edinburgh
     </>
   );
@@ -27,6 +28,9 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
+      • Meta-science and scientific institutions <br />
+      • Improving productive output per hour of work for researchers <br />
+      • Scientific software modernisation <br />
       • Improvement in late-life QoL <br />• Gene delivery <br />
       • Anti-frailty/ageing <br />
       • Bio/technological progress <br />

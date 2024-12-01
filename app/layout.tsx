@@ -67,7 +67,7 @@ export default function RootLayout({
       lang="en"
       className={clsx("text-black bg-[#ffffff] font-sans", kaisei.variable)}
     >
-      <body className="antialiased flex flex-1 flex-col min-h-screen max-w-[1000px] mb-40 mx-4 lg:mx-auto relative pb-20">
+      <body className="antialiased flex flex-1 flex-col min-h-screen max-w-[900px] mb-40 mx-4 lg:mx-auto relative pb-20">
         <div className="flex flex-col h-min">
           <div className="my-8 flex flex-row justify-center md:flex md:flex-row md:justify-center">
             {/* <Sidebar /> */}

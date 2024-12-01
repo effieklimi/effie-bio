@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 ::selection {
-  background-color: #eeaa88;
+  background-color: #79aeca;
   color: #303030;
 }
 

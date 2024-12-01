@@ -23,20 +23,20 @@ export default async function HomePage() {
   return (
     <div>
       <section>
-        <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div>
+        {/* <div className="flex items-start md:items-center place-self-center flex-col md:flex-row space-x-7"></div> */}
 
         <div className="flex flex-col items-center">
           <div className="flex flex-col w-full lg:justify-center space-y-10">
             <div className="flex flex-row lg:space-x-8 md:justify-start justify-center">
               <p className="font-mono w-1/6 lg:text-right justify-start hidden lg:inline-block"></p>
-              <div className="pt-12 flex flex-col">
+              <div className="flex flex-col">
                 <div className="flex justify-center md:justify-start">
                   <Image
                     alt={name}
                     className=""
                     src={avatar}
                     // placeholder="blur"
-                    width={600}
+                    width={700}
                     priority
                   />
                 </div>
@@ -51,9 +51,13 @@ export default async function HomePage() {
               <p className="font-mono w-1/6 lg:text-right text-left text-[#406390]">
                 /about
               </p>
-              <p className="w-ful">
+              <p className="w-5/6">
                 I am a molecular biologist, bioinformatician and software
-                developer based in London. Email me at{" "}
+                developer based in the UK. I work on modernising the
+                computational research interface for scientists. Pro-growth.
+                Anti-zero sum. Pro-freedom in switching scientific domains.
+                Pro-independent research. I also make various software apps and
+                trinkets. Anti-bureaucrat. Email me at{" "}
                 <a href="mailto:hi@effie.bio" target="_blank">
                   <u>
                     <span className="italics">hi@effie.bio</span>
