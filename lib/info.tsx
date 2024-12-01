@@ -8,7 +8,7 @@ export const about = () => {
   return (
     <>
       •{" "}
-      <a href="https://drylab-inc.github.io" target="_blank">
+      <a href="https://drylab.bio" target="_blank">
         <u>
           <span className="italics">Drylab</span>
         </u>

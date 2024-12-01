@@ -55,9 +55,9 @@ export default async function HomePage() {
                 I am a molecular biologist, bioinformatician and software
                 developer based in the UK. I work on modernising the
                 computational research interface for scientists. Pro-growth.
-                Anti-zero sum thinking. Anti-bureaucrat. Pro-freedom in
-                switching scientific domains. Pro-independent research. I also
-                make various software apps and trinkets. Email me at{" "}
+                Anti-zero sum thinking. Anti-bureaucrat. Pro-independent
+                research. I also make various software apps and trinkets. Email
+                me at{" "}
                 <a href="mailto:hi@effie.bio" target="_blank">
                   <u>
                     <span className="italics">hi@effie.bio</span>
