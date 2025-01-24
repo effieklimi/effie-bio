@@ -16,10 +16,9 @@ export const about = () => {
       <br />•{" "}
       <a href="https://effieklimi.substack.com/welcome" target="_blank">
         <u>
-          <span className="italics">Delphic Dialogs</span>,
+          <span className="italics">My writing</span>,
         </u>
-      </a>{" "}
-      my blog
+      </a>
       <br />• PhD @ University of Edinburgh
     </>
   );
