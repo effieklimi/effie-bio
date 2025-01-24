@@ -121,7 +121,7 @@ export default function RootLayout({
 
             <div className="flex flex-col justify-end h-22">
               <Link
-                href="https://twitter.com/roboticparts"
+                href="https://twitter.com/effiebio"
                 className="mx-1"
                 target="_blank"
               >
