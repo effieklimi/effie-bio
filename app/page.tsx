@@ -52,12 +52,12 @@ export default async function HomePage() {
                 /about
               </p>
               <p className="w-5/6">
-                I am a molecular biologist, bioinformatician and software
-                developer based in the UK. I work on modernising the
-                computational research interface for scientists. Pro-growth.
-                Anti-zero sum thinking. Anti-bureaucrat. Pro-independent
-                research. I also make various software apps and trinkets. Email
-                me at{" "}
+                I work on tooling and end-to-end automation of data integrity
+                and reproducibility for scientists. Pro-growth, optimist,
+                anti-zero sum thinking, anti-bureaucrat. I also make various
+                software apps and trinkets. Previously: PhD (Computational & RNA
+                bio) @ University of Edinburgh. Awards previously received by
+                the UKRI and NIH-NCI. Email me at{" "}
                 <a href="mailto:hi@effie.bio" target="_blank">
                   <u>
                     <span className="italics">hi@effie.bio</span>

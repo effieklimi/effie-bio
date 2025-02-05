@@ -46,7 +46,7 @@ export const bio = () => {
       <br /> • Culture shifts and how they happen
       <br />• Mythology, symbolism and fiction
       <br /> • Christian theology and liturgy
-      <br /> • Working towards polymathy
+      <br /> • Ancient languages (greek and hebrew)
       <br />• The planets Saturn and Jupiter
       <br />• Music composition and orchestration
     </>
