@@ -58,9 +58,9 @@ export default async function HomePage() {
                 software apps and trinkets. Previously: PhD (Computational & RNA
                 bio) @ University of Edinburgh. Awards previously received by
                 the UKRI and NIH-NCI. Email me at{" "}
-                <a href="mailto:hi@effie.bio" target="_blank">
+                <a href="mailto:effie@effie.bio" target="_blank">
                   <u>
-                    <span className="italics">hi@effie.bio</span>
+                    <span className="italics">effie@effie.bio</span>
                   </u>
                 </a>
                 .
