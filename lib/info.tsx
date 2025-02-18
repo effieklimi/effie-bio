@@ -45,7 +45,7 @@ export const bio = () => {
       </a>
       <br /> • Culture shifts and how they happen
       <br />• Mythology, symbolism and fiction
-      <br /> • Christian theology and liturgy
+      <br /> • Judeo/christian theology and liturgy
       <br /> • Ancient languages (greek and hebrew)
       <br />• The planets Saturn and Jupiter
       <br />• Music composition and orchestration
