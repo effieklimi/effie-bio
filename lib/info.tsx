@@ -22,7 +22,7 @@ export const about = () => {
       <br />•{" "}
       <a href="https://hebrew.effie.bio" target="_blank">
         <u>
-          <span className="italics">Hebrew study buddy</span>,
+          <span className="italics">Hebrew learning buddy</span>,
         </u>
       </a>
       <br />• PhD @ University of Edinburgh
