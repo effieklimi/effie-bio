@@ -20,6 +20,12 @@ export const about = () => {
         </u>
       </a>
       <br />• PhD @ University of Edinburgh
+      <br />•{" "}
+      <a href="https://hebrew.effie.bio" target="_blank">
+        <u>
+          <span className="italics">Hebrew study buddy</span>,
+        </u>
+      </a>
     </>
   );
 };
