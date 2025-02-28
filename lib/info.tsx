@@ -19,13 +19,19 @@ export const about = () => {
           <span className="italics">My writing</span>,
         </u>
       </a>
-      <br />•
+      <br />•{" "}
       <a href="https://ncbi-data.effie.bio/" target="_blank">
         <u>
           <span className="italics">
             NCBIapi: API and interface for NCBI's bio datasets
           </span>
           ,
+        </u>
+      </a>
+      <br />•{" "}
+      <a href="https://vasco.drylab.bio" target="_blank">
+        <u>
+          <span className="italics">Vasco: the fastest genome browser</span>,
         </u>
       </a>
       <br />•{" "}
@@ -37,7 +43,7 @@ export const about = () => {
       <br />•{" "}
       <a href="https://orcid.org/0000-0002-1847-7910" target="_blank">
         <u>
-          <span className="italics">My academic work</span>,
+          <span className="italics">My academic work</span>
         </u>
       </a>
       <br />
