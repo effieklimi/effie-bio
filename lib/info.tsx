@@ -25,7 +25,13 @@ export const about = () => {
           <span className="italics">Hebrew learning buddy</span>,
         </u>
       </a>
-      <br />• PhD @ University of Edinburgh
+      <br />
+      <a href="https://orcid.org/0000-0002-1847-7910" target="_blank">
+        <u>
+          <span className="italics">My academic work</span>,
+        </u>
+      </a>
+      <br />
     </>
   );
 };
