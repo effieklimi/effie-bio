@@ -28,13 +28,13 @@ export const about = () => {
           ,
         </u>
       </a>
-      <br />
+      <br />•{" "}
       <a href="https://hebrew.effie.bio" target="_blank">
         <u>
           <span className="italics">Hebrew learning buddy</span>,
         </u>
       </a>
-      <br />
+      <br />•{" "}
       <a href="https://orcid.org/0000-0002-1847-7910" target="_blank">
         <u>
           <span className="italics">My academic work</span>,
