@@ -19,7 +19,16 @@ export const about = () => {
           <span className="italics">My writing</span>,
         </u>
       </a>
-      <br />•{" "}
+      <br />•
+      <a href="https://ncbi-data.effie.bio/" target="_blank">
+        <u>
+          <span className="italics">
+            NCBIapi: API and interface for NCBI's bio datasets
+          </span>
+          ,
+        </u>
+      </a>
+      <br />
       <a href="https://hebrew.effie.bio" target="_blank">
         <u>
           <span className="italics">Hebrew learning buddy</span>,
